@@ -1,0 +1,89 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+$white: #fefefe;
+$cyan: #70e6ff;
+$cyanDark: darken($cyan, 30);
+$blueDark: #11171d;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: $blueDark;
+    font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: $white;
+}
+
+.scifi-nav {
+    position: relative;
+    &__orbit, &__orbit:before, &__satellite {
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+    &__orbit {
+        z-index: 10;
+        transform-style: preserve-3d;
+        transform-origin: 50% 50%;
+        display: flex;
+        align-items: center;
+        &:nth-child(n) {
+            width: 10em;
+            height: 10em;
+            z-index: n;
+            transform: translate(-50%, -50%) rotateX(65deg);
+        }
+        &:before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px dotted rgba($cyan, .5);
+            transform: translate(-50%, -50%) rotate(0);
+            animation: orbitRotation 40s linear infinite reverse;
+        }
+    }
+    &__satellite {
+        width: 100%;
+        height: 100%;
+        transform: translate(-50%, -50%) rotate(0);
+        animation: orbitRotation 40s linear infinite;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        &:before {
+            content: '';
+            width: .5em;
+            height: .5em;
+            position: absolute;
+            border-radius: 50%;
+            opacity: .25;
+        }
+    }
+    &__label {
+        opacity: 0;
+        padding: 0 .5em 3em 0;
+        text-transform: uppercase;
+        transform: rotate(0) rotateX(-90deg);
+        transition: opacity .25s ease-in-out;
+        animation: satelliteRotation 40s linear infinite reverse;
+    }
+}
+
+@keyframes orbitRotation {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes satelliteRotation {
+    100% {
+        transform: rotate(360deg) rotateX(-90deg);
+    }
+}
