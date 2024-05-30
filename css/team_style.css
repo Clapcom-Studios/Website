@@ -119,7 +119,6 @@ body {
     text-shadow: 0px 4px 10px rgba(0, 255, 0, 0.8); /* Sombra de texto para un efecto luminoso */
 }
 
-
 .section-title h2 {
     font-family: 'Orbitron', sans-serif;
     font-size: 48px; /* Tamaño de fuente grande */
@@ -128,7 +127,6 @@ body {
     letter-spacing: 1px; /* Espacio entre letras para efecto más dramático */
 }
   
-
   .our-team {
  
     border: 2px solid #4CAF50;
@@ -137,12 +135,11 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     padding: 20px;
     margin-bottom: 20px; 
+    animation: scaleIn 1.2s ease forwards;
 }
-
-
-  
   .our-team:hover {
     transform: scale(1.05); 
+    box-shadow: 0 5px 15px rgba(58, 227, 116, 0.8);
   }
   
  
@@ -151,7 +148,7 @@ body {
   }
   
  
-  .btn {
+   .btn {
     background-color: rgba(0, 0, 0, 0.5); /* Fondo negro transparente */
     color: #ffffff; /* Texto en blanco */
     border: 2px solid #4CAF50; /* Borde sólido verde */
@@ -164,10 +161,11 @@ body {
 }
 
 .btn:hover {
-    background-color: #4CAF50; 
-    color: #0a0f0d; 
-    border-color: #ffffff;
+    background-color: #4CAF50; /* Cambiar a fondo verde al hacer hover */
+    color: #0a0f0d; /* Cambiar el color del texto al hacer hover */
+    border-color: #ffffff; /* Cambiar el color del borde al hacer hover */
 }
+
 
 
 .our-team .pic img {
@@ -180,6 +178,40 @@ body {
     align-items: center; /* Alinear ítems al centro horizontalmente */
     justify-content: center; /* Alinear ítems al centro verticalmente */
     text-align: center; /* Asegurar que el texto también está centrado */
+    object-fit: cover;
+    animation: fadeInElements 1.3s ease forwards;
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(0, 0);
+        
+    }
+    50% {
+        transform: scale(1, 0.01);
+        
+    }
+    100% {
+        transform: scale(1, 1);
+        
+    }
+}
+
+@keyframes fadeInElements {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInText {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 
@@ -218,7 +250,19 @@ body {
     width: auto; /* Ajustar el ancho automáticamente basado en la altura */
     max-width: 80%; /* Asegurar que la imagen no sobrepase el ancho del contenedor */
     height: auto; /* Mantener la relación de aspecto */
+
 }
+
+/* Aplicar la animación a los elementos de texto dentro de las tarjetas */
+.our-team .team-content, .our-team .title, .our-team .post {
+    opacity: 0; /* Inicia con opacidad en 0 */
+    animation: fadeInText 1 ease forwards; /* Asegurarse de que 'forwards' mantiene la propiedad final */
+    animation-delay: 1.1s; /* Retrasar la animación para permitir que otros elementos aparezcan primero */
+}
+
+
+
+
 
 
 @media only screen and (max-width: 990px){

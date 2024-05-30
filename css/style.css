@@ -824,21 +824,6 @@ body {
     font-family: "Raleway", sans-serif;
   }
   
-  /* Estilos para los botones de filtrado */
-.btn {
-    background-color: #f1f1f1; /* Suponiendo un color por defecto */
-    border: none;
-    outline: none;
-    padding: 10px 16px;
-    cursor: pointer;
-    font-size: 18px;
-  }
-  
-  .btn:hover, .btn.active {
-    background-color: #666;
-    color: white;
-  }
-  
   /* Estilos para la sección del equipo */
   .team .team-wrap img {
     transition: all ease-in-out 0.3s;
