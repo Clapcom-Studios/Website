@@ -428,13 +428,12 @@ body {
   display: none;
   z-index: 100;
 }
-
 .card {
   width: 900px;
   height: 500px;
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid #4cacaf;
-  padding: 20px;
+  padding: 40px; 
   box-shadow: 0 0 15px #4cacaf;
   color: white;
   display: flex;
@@ -443,18 +442,37 @@ body {
 }
 
 .card img {
-  width: 100px;
+  width: 200px;
   height: auto;
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 .card h2 {
-  margin-bottom: 10px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 36px;
+  color: white;
+  margin-bottom: 20px;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .card p {
-  flex-grow: 1;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-top: 10px; 
+  line-height: 1.6;
 }
+
+.images-container {
+  display: flex;  /* Activa Flexbox */
+  flex-wrap: wrap;  /* Permite que los elementos se pasen a la siguiente línea si no hay espacio */
+  align-items: center;  /* Alinea verticalmente las imágenes en el centro si tienen diferentes alturas */
+  justify-content: flex-start;  /* Alinea las imágenes al inicio del contenedor */
+  gap: 10px;  /* Espacio entre las imágenes */
+}
+
 
 
 
