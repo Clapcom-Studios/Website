@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Equipo</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!-- Filtro de botones -->
+	<div class="filter-buttons">
+		<button onclick="filterMembers('all')">Todos</button>
+		<button onclick="filterMembers('lead')">Leads</button>
+		<button onclick="filterMembers('code')">Code</button>
+		<button onclick="filterMembers('art')">Art</button>
+		<button onclick="filterMembers('design')">Design</button>
+	</div>
+
+	<div class="team-container" id="team-container">
+		<!-- Los miembros del equipo se generarán aquí dinámicamente -->
+	</div>
+
+	<!-- Pop-up -->
+	<div id="popup" class="popup">
+		<div class="popup-content">
+			<span class="close" onclick="closePopup()">&times;</span>
+			<div class="popup-detail">
+				<img id="popup-image" src="" alt="Imagen del miembro">
+				<h2 id="popup-title"></h2>
+				<h4 id="popup-position"></h4>
+				<p id="popup-description"></p>
+				<div id="popup-additional-info"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+	<script src="js/members.js"></script>
+</body>
+
+</html>

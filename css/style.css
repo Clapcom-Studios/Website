@@ -229,6 +229,16 @@ blockquote {
 	text-align: center;
 	right: 0;
 }
+.banner-team
+{
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	z-index: 2;
+	left: 0px;
+	text-align: center;
+	right: 0;
+}
 .subfooter {
 	background-color: #222222;
 	padding: 40px 0;
@@ -478,6 +488,22 @@ padding: 70px 0;
 }
 .banner-caption h1 {
 	font-size: 45px;
+}
+.banner-team h1,
+.banner-team h2,
+.banner-team h3,
+.banner-team h4,
+.banner-team h5,
+.banner-team h6 {
+	color: #ffffff;
+}
+.banner-team h1 {
+	font-size: 45px;
+}
+.banner-team h2 {
+	font-size: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 .footer h1{
 color:#fff;
@@ -775,3 +801,149 @@ h4.heading {
 	}
 }
 
+/* Students-cards
+---------------------------------------------------------------------------- */
+.filter-buttons {
+    margin: 20px;
+    text-align: center;
+}
+
+.filter-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+	justify-content: center;
+}
+
+.team-member {
+    position: relative;
+    width: 300px; /* Ajusta según el tamaño deseado */
+    cursor: pointer;
+}
+
+.photo {
+    position: relative;
+    overflow: hidden; /* Asegura que la superposición no se salga del contenedor */
+    height: 300px; /* Ajusta según el tamaño deseado */
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin distorsión */
+    transition: filter 0.3s ease; /* Añade una transición suave */
+    filter: brightness(100%); /* Restaura el brillo a su valor original */
+}
+
+.photo:hover img {
+    filter: brightness(50%); /* Reduce el brillo al 70% cuando se pasa el puntero */
+}
+
+.info {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 75, 6, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 2; /* Asegura que la barra está sobre la imagen */
+    display: flex; /* Añade flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap: 10px; /* Espacio entre el nombre y el cargo */
+    transition: transform 0.3s ease; /* Añade transición */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 65, 11, 0.788);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    transform: translateY(75%); /* Inicialmente oculta fuera de la vista */
+    transition: transform 0.3s ease; /* Transición suave */
+    z-index: 1; /* Asegura que la superposición está debajo de la barra de información */
+    height: 50%; /* Asegura que la superposición ocupe toda la altura del contenedor */
+    display: flex; /* Añade flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: stretch; /* Centra verticalmente */
+}
+
+/* Añade estas clases al final de tu archivo CSS */
+.overlay-green {
+    background-color: rgba(0, 141, 12, 0.7); /* Color verde */
+}
+
+.overlay-hardgreen {
+    background-color: rgba(0, 29, 2, 0.7); /* Color rojo */
+}
+
+.photo:hover .info {
+    transform: translateY(-50px); /* Ajusta la altura para coincidir con el tamaño de la barra */
+    bottom: 0;
+}
+
+.photo:hover .overlay {
+    transform: translateY(0%); /* Inicialmente oculta fuera de la vista */
+    transition: transform 0.3s ease; /* Transición suave */
+    bottom: 0%; /* Ajusta la altura para dejar espacio para el texto */
+}
+
+/* Popup styles */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 60px;
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; /* Ancho del popup */
+    max-width: 800px; /* Máximo ancho del popup */
+    display: flex; /* Usa flexbox para la disposición */
+}
+
+.popup-content img {
+    max-width: 40%; /* Ancho máximo de la imagen */
+    margin-right: 20px; /* Margen a la derecha de la imagen */
+}
+
+.popup-content .popup-detail {
+    flex-grow: 1; /* La descripción ocupa el espacio restante */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
