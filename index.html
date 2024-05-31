@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
 <html lang="en">
-<!--<![endif]-->
 
 <head>
 	<meta charset="utf-8">
@@ -22,109 +19,79 @@
 	<link href="css/animations.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	
+	
 
 </head>
 
 <body class="no-trans">
-	<!-- scrollToTop -->
-	<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+    <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+    <header class="header fixed clearfix navbar navbar-fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="header-left">
+                        <div class="logo-section smooth-scroll">
+                            <div class="brand"><a href="#banner"><b>Clapcom</b> Studios</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="header-right">
+                        <div class="main-navigation animated">
+                            <nav class="navbar navbar-default" role="navigation">
+                                <div class="container-fluid">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                            data-target="#navbar-collapse-1">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                    <div class="navbar-collapse collapse">
+                                        <ul class="nav navbar-nav pull-right">
+                                            <li class="active"><a href="index.html">Home</a></li>
+                                            <li><a href="https://github.com/Clapcom-Studios/Alien-Extraction">Download</a></li>
+                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li><a href="aboutus.html">About Us</a></li>
+                                        </ul>
+                                    </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-	<!-- header start -->
-	<header class="header fixed clearfix navbar navbar-fixed-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
+    <div id="banner" class="banner">
+        <video class="banner-video" autoplay loop muted>
+            <source src="images/trailer.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <div class="banner-caption">
+            <div style="margin-top: 0px; opacity: 1;" data-animation-effect="fadeIn">
+                <h1>Alien: Extraction</h1>
+                <h3 class="padding-top30">Hook here</h3>
+                <div class="padding-top60 contact-form">
+                    <button class="btn cta-button"><a style="color: white;"
+                            href="https://github.com/Clapcom-Studios/Alien-Extraction">Download</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-					<!-- header-left start -->
-					<div class="header-left">
-						<!-- name-and-slogan -->
-						<div class="logo-section smooth-scroll">
+    <!-- JavaScript -->
+<script type="text/javascript" src="plugins/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="plugins/modernizr.js"></script>
+<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="plugins/jquery.appear.js"></script>
 
-							<div class="brand "><a href="#banner"><b>Clapcom</b> Studios</a></div>
-						</div>
-
-					</div>
-					<!-- header-left end -->
-
-				</div>
-				<div class="col-md-8">
-
-					<!-- header-right start -->
-					<div class="header-right">
-
-						<!-- main-navigation start -->
-						<div class="main-navigation animated">
-
-							<!-- navbar start -->
-							<nav class="navbar navbar-default" role="navigation">
-								<div class="container-fluid">
-
-									<!-- Toggle get grouped for better mobile display -->
-									<div class="navbar-header">
-										<button type="button" class="navbar-toggle" data-toggle="collapse"
-											data-target="#navbar-collapse-1">
-											<span class="sr-only">Toggle navigation</span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-											<span class="icon-bar"></span>
-										</button>
-									</div>
-
-									<div class="navbar-collapse collapse">
-										<ul class="nav navbar-nav pull-right">
-											<li class="active"><a href="index.html">Home</a></li>
-											<li><a
-													href="https://github.com/Clapcom-Studios/Alien-Extraction">Download</a>
-											</li>
-											<li><a href="gallery.html">Gallery</a></li>
-											<li><a href="team.html">About Us</a></li>
-										</ul>
-
-									</div>
-							</nav>
-							<!-- navbar end -->
-
-						</div>
-						<!-- main-navigation end -->
-
-					</div>
-					<!-- header-right end -->
-
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- header end -->
-
-	<!-- banner start -->
-	<div id="banner" class="banner">
-		<video class="banner-video" autoplay loop muted>
-			<source src="images/trailer.mp4" type="video/mp4">
-			Tu navegador no soporta la etiqueta de video.
-		</video>
-		<div class="banner-caption">
-			<div style="margin-top: 0px; opacity: 1;" data-animation-effect="fadeIn">
-				<h1>Alien: Extraction</h1>
-				<h3 class="padding-top30">Hook here</h3>
-				<div class="padding-top60 contact-form">
-					<button class="btn cta-button"><a style="color: white;"
-							href="https://github.com/Clapcom-Studios/Alien-Extraction">Download</a></button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- banner end -->
-
-	<!-- JavaScript -->
-	<script type="text/javascript" src="plugins/jquery.min.js"></script>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="plugins/modernizr.js"></script>
-	<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
-	<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
-	<script type="text/javascript" src="plugins/jquery.appear.js"></script>
-
-	<!-- Custom Scripts -->
-	<script type="text/javascript" src="js/custom.js"></script>
+<!-- Custom Scripts -->
+<script type="text/javascript" src="js/custom.js"></script>
 
 </body>
 
