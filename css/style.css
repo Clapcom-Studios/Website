@@ -873,4 +873,89 @@ body {
       transition-delay: 0 !important;
     }
   }
+
+  .nav li {
+    float: left; /* Esto hace que los elementos de la lista se alineen horizontalmente */
+}
+
+
+/*nav bar para game guide dropdown*/
   
+.nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.nav .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.nav .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar-default .dropdown-menu {
+    background: none; /* Elimina el color de fondo */
+    border: none; /* Elimina el borde */
+    box-shadow: none; /* Elimina la sombra */
+    font-family: 'Orbitron', sans-serif; /* Estilo de fuente, ajusta según sea necesario */
+    top: +55px; /* Mueve el menú hacia arriba en 10px */
+}
+
+
+.navbar-default .dropdown-menu a {
+    color: #ccc; /* Color de los enlaces */
+    font-size: 16px; /* Tamaño de la tipografía */
+    line-height: 1.5; /* Espaciado entre líneas */
+    padding: 12px 16px; /* Ajusta el espaciado para que sea más fácil hacer clic */
+    padding-left: 30px; /* Aumenta el padding izquierdo para desplazar el texto hacia la derecha */
+    display: block; /* Asegura que cada enlace ocupe su propia línea */
+    text-decoration: none; /* Sin subrayado */
+    background: none; /* Asegura que no haya fondo en los enlaces */
+}
+
+.navbar-default .dropdown-menu a:hover {
+    color: #4CAF50; /* Cambia el color del texto al pasar el mouse */
+    background: none; /* Fondo transparente al pasar el mouse */
+    font-size: 18px; /* Aumenta el tamaño de la fuente */
+    font-weight: bold; /* Hace la fuente negrita */
+    transform: scale(1.1); /* Escala ligeramente el enlace para dar un efecto de crecimiento */
+}
+
+
+
+
+
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar-default .dropdown-menu li {
+    
+	
+    animation-fill-mode: forwards; /* Mantiene la propiedad del último frame de la animación */
+	animation: slideIn 0.5s ease-out; /* Aplica la animación con una duración y efecto */
+	
+}
+
+.navbar-default .dropdown-menu.show li {
+    
+	animation: slideIn 0.5s ease-out; /* Aplica la animación con una duración y efecto */
+	
+}

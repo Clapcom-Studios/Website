@@ -111,3 +111,52 @@
 
 	}); // End document ready
 })(this.jQuery);
+
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    var dropdown = document.querySelector('.dropdown');
+    var dropdownMenu = dropdown.querySelector('.dropdown-menu');
+    var items = dropdownMenu.querySelectorAll('li');
+
+    // Inicialmente, oculta todos los elementos li
+    items.forEach((item) => {
+        item.style.display = 'none';
+    });
+
+    dropdown.addEventListener('click', function (event) {
+        event.stopPropagation(); // Previene la propagación del evento a elementos superiores
+        let isShown = dropdownMenu.classList.contains('show');
+
+        if (!isShown) {
+            // Muestra y anima los elementos
+            dropdownMenu.classList.add('show');
+            items.forEach((item, index) => {
+                item.style.display = 'list-item'; // Hace que el elemento sea visible
+                item.style.animation = 'none'; // Reinicia la animación
+                requestAnimationFrame(() => {
+                    item.style.animation = ''; // Reasigna la animación para que se ejecute
+                    item.style.animationDelay = `${index * 100}ms`; // Establece un retraso de animación para cada elemento
+                });
+            });
+        } else {
+            // Si el menú está mostrándose, se cierra sin animación de desaparición
+            items.forEach((item) => {
+                item.style.display = 'none';
+                item.style.animation = '';
+            });
+            dropdownMenu.classList.remove('show');
+        }
+    });
+
+    // Cierra el dropdown si se hace clic fuera de él
+    document.addEventListener('click', function (event) {
+        if (!dropdown.contains(event.target)) {
+            dropdownMenu.classList.remove('show');
+            items.forEach((item) => {
+                item.style.display = 'none';
+            });
+        }
+    });
+});
