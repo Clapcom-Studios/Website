@@ -11,9 +11,10 @@
     <link href="fonts/font-awesome/Nueva carpeta (2)/css/all.css" rel="stylesheet">
     <link href="css/animations.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/levels.css" rel="stylesheet">
     <style>
         body {
-            background-color: #000; /* Fondo negro */
+            background-color: #11171d; /* Fondo negro */
         }
     </style>
 </head>
@@ -67,6 +68,135 @@
             </div>
         </div>
     </header>
+
+    <div class="scifi-nav">
+        <div class="scifi-nav__system">
+            <li class="scifi-nav__orbit" data-title="El" data-content="Descripción de El, nivel de dificultad 6" data-img="img_el.jpg">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">El<span class="scifi-nav__description">Difficulty level 6</span></span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit" data-title="Xiao" data-content="Descripción de Xiao, nivel de dificultad 3" data-img="img_xiao.jpg">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Xiao<span class="scifi-nav__description">Difficulty level 3</span></span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit" data-title="Se" data-content="Descripción de Se, nivel de dificultad 8" data-img="img_se.jpg">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Se<span class="scifi-nav__description">Difficulty level 8</span></span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit" data-title="Ha" data-content="Descripción de Ha, nivel de dificultad 7" data-img="img_ha.jpg">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Ha<span class="scifi-nav__description">Difficulty level 7</span></span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit" data-title="Cagao" data-content="Descripción de Cagao, nivel de dificultad 3" data-img="img_cagao.jpg">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Cagao<span class="scifi-nav__description">Difficulty level 3</span></span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit" data-title="Research" data-content="Descripción de Research, nivel de dificultad 3" data-img="img_research.jpg">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Research<span class="scifi-nav__description">Difficulty level 3</span></span>
+                </a>
+            </li>
+            <li class="scifi-nav__orbit" data-title="Sample" data-content="Descripción de Sample, nivel de dificultad 7" data-img="img_sample.jpg">
+                <a class="scifi-nav__satellite" href="javascript:void(0)">
+                    <span class="scifi-nav__label">Sample<span class="scifi-nav__description">Difficulty level 7</span></span>
+                </a>
+            </li>
+        </div>
+        <div class="hologram"></div>
+    </div>
+    
+
+    <!-- Repetir para cada satélite con su propio contenido específico -->
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const satellites = document.querySelectorAll('.scifi-nav__orbit');
+            const centeredText = document.getElementById('centered-text');
+            const card = centeredText.querySelector('.card');
+            const cardTitle = card.querySelector('h2');
+            const cardContent = card.querySelector('p');
+            const cardImage = card.querySelector('img');
+        
+            satellites.forEach(satellite => {
+                satellite.addEventListener('mouseenter', function() {
+                    // Extraer datos del satélite actual
+                    const title = this.dataset.title;
+                    const content = this.dataset.content;
+                    const img = this.dataset.img;
+        
+                    // Actualizar contenido de la tarjeta
+                    cardTitle.textContent = title;
+                    cardContent.textContent = content;
+                    cardImage.src = img;
+        
+                    // Mostrar la tarjeta
+                    centeredText.style.display = 'block';
+                });
+        
+                satellite.addEventListener('mouseleave', function() {
+                    // Ocultar la tarjeta
+                    centeredText.style.display = 'none';
+                });
+            });
+        });
+        </script>
+        
+
+
+<!--     
+    <div class="scifi-nav">
+        <div class="scifi-nav__system">
+          <li class="scifi-nav__orbit"><a class="scifi-nav__satellite" href="javascript:void(0)"><span
+                class="scifi-nav__label">El<span class="scifi-nav__description">Difficulty level 6</span></span></a></li>
+          <li class="scifi-nav__orbit"><a class="scifi-nav__satellite" href="javascript:void(0)"><span
+                class="scifi-nav__label">Xiao<span class="scifi-nav__description">Difficulty level 3</span></span></a></li>
+          <li class="scifi-nav__orbit"><a class="scifi-nav__satellite" href="javascript:void(0)"><span
+                class="scifi-nav__label">se<span class="scifi-nav__description">Difficulty level 8</span></span></a></li>
+          <li class="scifi-nav__orbit"><a class="scifi-nav__satellite" href="javascript:void(0)"><span
+                class="scifi-nav__label">ha<span class="scifi-nav__description">Difficulty level 7</span></span></a></li>
+          <li class="scifi-nav__orbit"><a class="scifi-nav__satellite" href="javascript:void(0)"><span
+                class="scifi-nav__label">cagao<span class="scifi-nav__description">Difficulty level 3</span></span></a></li>
+          <li class="scifi-nav__orbit"><a class="scifi-nav__satellite" href="javascript:void(0)"><span
+                class="scifi-nav__label">Research<span class="scifi-nav__description">Difficulty level 3</span></span></a>
+          </li>
+          <li class="scifi-nav__orbit"><a class="scifi-nav__satellite" href="javascript:void(0)"><span
+                class="scifi-nav__label">sampl<span class="scifi-nav__description">Difficulty level 7</span></span></a></li>
+        </div>
+        <div class="hologram"></div>
+      </div> -->
+           
+        
+      <!-- <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Seleccionar todos los satélites
+            const satellites = document.querySelectorAll('.scifi-nav__orbit');
+            // Seleccionar el elemento de texto central
+            const centeredText = document.getElementById('centered-text');
+        
+            // Función para mostrar el texto
+            function showText() {
+                centeredText.style.display = 'block';
+            }
+        
+            // Función para ocultar el texto
+            function hideText() {
+                centeredText.style.display = 'none';
+            }
+        
+            // Asignar los eventos de mouseover y mouseout a cada satélite
+            satellites.forEach(satellite => {
+                satellite.addEventListener('mouseenter', showText);
+                satellite.addEventListener('mouseleave', hideText);
+            });
+        });
+        </script> -->
+        
+    
     <!-- Scripts -->
     <script type="text/javascript" src="plugins/jquery.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
