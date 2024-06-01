@@ -33,7 +33,7 @@ h1, h2, h3 {
 
 .neon-line {
     height: 2px;
-    width: 100px;
+    width: 60px;
     background-color: #4caf4f;
     box-shadow: 0 0 5px #4caf4f, 0 0 10px #4caf4f, 0 0 20px #4caf4f;
     margin: 50px 0;

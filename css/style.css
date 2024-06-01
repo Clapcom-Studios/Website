@@ -959,3 +959,9 @@ body {
 	animation: slideIn 0.5s ease-out; /* Aplica la animación con una duración y efecto */
 	
 }
+
+#model-container {
+    width: 800px; /* Ancho del contenedor */
+    height: 600px; /* Alto del contenedor */
+    margin: auto; /* Centrar el contenedor */
+}
