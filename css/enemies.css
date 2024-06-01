@@ -1,0 +1,23 @@
+.stat {
+    margin: 10px 0;
+}
+
+.stat-bar {
+    display: flex;
+    justify-content: left;
+    height: 20px;
+    width: 100%;
+    max-width: 200px;
+    background-color: #444; /* Color de fondo de los cuadritos no activos */
+    margin: auto;
+}
+
+.stat-bar div {
+    height: 100%;
+    width: 10%; /* Cada cuadrito representa el 10% */
+    background-color: #08f; /* Color de los cuadritos activos */
+}
+
+#weapon-stats {
+    font-family: 'Orbitron', sans-serif; /* Acentúa el tema sci-fi */
+}

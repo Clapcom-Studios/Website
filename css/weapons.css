@@ -1,0 +1,67 @@
+.stat {
+    margin: 20px 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.stat-bar div.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #08f;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px auto;
+    font-family: 'Orbitron', sans-serif;
+    width: 60%;
+    max-width: 400px;
+}
+
+.stat h3 {
+    color: #FFF;
+    flex: 0 0 160px; 
+    margin-right: 20px;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.stat-bar-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.stat-bar {
+    display: flex;
+    justify-content: start;
+    gap: 2px;
+    height: 20px;
+    max-width: 300px;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: -20px;
+}
+
+.stat-bar div {
+    height: 60%;
+    width: 1.75%;
+    background-color: #444;
+}
+
+.stat-bar div.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #08f;
+}
+
+#weapon-name {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 120, 255, 0.7);
+    font-family: 'Orbitron', sans-serif;
+}
+
+#weapon-stats h3 {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.8);
+    font-family: 'Orbitron', sans-serif;
+}
