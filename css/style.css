@@ -930,6 +930,25 @@ body {
     transform: scale(1.1); /* Escala ligeramente el enlace para dar un efecto de crecimiento */
 }
 
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+    position: absolute;
+}
+
+.navbar .dropdown-menu .dropdown-submenu .dropdown-menu {
+    display: none;
+}
+
+.navbar .dropdown-menu .dropdown-submenu:hover .dropdown-menu {
+    display: block;
+}
+
 
 
 
