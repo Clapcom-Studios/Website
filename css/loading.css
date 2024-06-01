@@ -1,31 +1,17 @@
 .loading-screen {
-    position: fixed;
+    position: fixed; /* O absolute si prefieres, pero fixed es generalmente mejor para pantallas de carga */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.8); /* Fondo semi-transparente */
-    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Asegura que todo el fondo sea un poco oscuro para destacar la carga */
     display: flex;
-    align-items: center;
     justify-content: center;
-    z-index: 9999;
-    font-size: 24px;
-    font-family: 'Arial', sans-serif;
+    align-items: center;
+    z-index: 9999; /* Un valor alto para estar por encima de todo */
 }
 
-html{
-    height: 100%;
-  }
-  body{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #37474F;
-    margin: 0;
-  }
+
   #outer {
     stroke: white;
   }
