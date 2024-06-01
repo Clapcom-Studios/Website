@@ -202,10 +202,12 @@
     
     
 
-    <!-- Repetir para cada satélite con su propio contenido específico -->
+    <!-- Scripts -->
     <script src="js/loading.js"></script>
+    
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+
+document.addEventListener("DOMContentLoaded", function() {
     const satellites = document.querySelectorAll('.scifi-nav__orbit');
     const centeredText = document.getElementById('centered-text');
     const card = centeredText.querySelector('.card');
@@ -217,34 +219,38 @@
         satellite.addEventListener('mouseenter', function() {
             const title = this.dataset.title;
             const content = this.dataset.content;
-            const imgs = this.dataset.img.split(',');  // Supone que las imágenes están separadas por comas
+            const imgs = this.dataset.img.split(','); 
             const color = this.dataset.color;
 
             cardTitle.textContent = title;
             cardContent.textContent = content;
             cardContent.innerHTML = content;
-            imagesContainer.innerHTML = '';  // Limpia el contenedor de imágenes anterior
+            imagesContainer.innerHTML = ''; 
 
             imgs.forEach(img => {
                 let imageElement = document.createElement('img');
                 imageElement.src = img;
-                imageElement.style.width = '200px';  // Establece el ancho de todas las imágenes
+                imageElement.style.width = '200px';
                 imageElement.style.height = 'auto';
-                imageElement.style.marginRight = '10px';  // Espacio entre imágenes
+                imageElement.style.marginRight = '10px';
                 imagesContainer.appendChild(imageElement);
             });
 
             card.style.borderColor = color;
             card.style.boxShadow = "0 0 15px " + color;
-
-            centeredText.style.display = 'block';
+            
+            centeredText.classList.add('visible');  
         });
 
         satellite.addEventListener('mouseleave', function() {
-            centeredText.style.display = 'none';
+            centeredText.classList.remove('visible');  
         });
     });
 });
+
+
+
+
 
 
 

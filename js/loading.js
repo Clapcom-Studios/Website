@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         const minDelay = 800;  
-        const maxDelay = 2500;
+        const maxDelay = 2000;
         const randomDelay = Math.floor(Math.random() * (maxDelay - minDelay + 1) + minDelay);
 
         

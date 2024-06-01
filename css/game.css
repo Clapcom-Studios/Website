@@ -1,0 +1,129 @@
+:root {
+    --teal: #4CAF50;
+    --bg: #0A0A0A;
+}
+body {
+    background: url('images/space-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ccf;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #4caf4f;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.feature-icon {
+    width: 80px; 
+    height: auto;
+    margin: 10px;
+    filter: drop-shadow(0 0 6px #4af);
+}
+
+.feature:hover .feature-icon {
+    animation: float 2s ease-in-out infinite;
+    transform: scale(1.1);
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.neon-line {
+    height: 2px;
+    width: 100px;
+    background-color: #4caf4f;
+    box-shadow: 0 0 5px #4caf4f, 0 0 10px #4caf4f, 0 0 20px #4caf4f;
+    margin: 50px 0;
+}
+
+.game-pillar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.game-pillar.left {
+    flex-direction: row-reverse;
+}
+
+.game-pillar.right {
+    flex-direction: row;
+}
+
+.octo {
+    height: 230px;
+    width: 230px; 
+    margin: 10px;
+    background-color: var(--teal);
+    line-height: 230px;
+    text-align: center;
+    border-radius: 41%;
+    color: #4caf4fd7;
+    font-size: 31px; 
+    text-shadow: 1px 1px 13px #4caf4fa6;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    position: relative;
+    overflow: hidden;
+}
+
+.pillar-description {
+    flex: 1 0 60%; 
+    padding: 25px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+    text-align: justify;
+}
+
+
+
+.octo:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg);
+    box-shadow: inset 0 0 45px -4px #4CAF50;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    border-radius: 41%;
+    transform: scale(0.95);
+}
+
+.octo:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("https://3sdgames.files.wordpress.com/2014/01/hex-transparent.png");
+    opacity: 0.2;
+    z-index: -1;
+    filter: invert(1);
+    background-size: 240px auto;
+    background-position: center center;
+}
+
+.octo-label {
+    font-size: 14px;
+    line-height: 1;
+    position: absolute;
+    bottom: 30px; 
+    left: 0;
+    width: 100%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 20px rgba(84, 215, 217, 0.6);
+}
+
+.octo-label strong {
+    display: block;
+    font-size: 18px; 
+    margin-bottom: 2px;
+}

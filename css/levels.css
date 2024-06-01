@@ -423,11 +423,21 @@ body {
 .centered-text {
   position: fixed;
   top: 40%;
-  left: 65%;  
+  left: 65%;
   transform: translate(-50%, -50%);
-  display: none;
+  display: block;  
   z-index: 100;
+  opacity: 0; 
+  transition: opacity 0.5s ease, visibility 0.5s ease; 
+  visibility: hidden; 
 }
+
+.centered-text.visible {
+  opacity: 1;
+  visibility: visible; 
+}
+
+
 .card {
   width: 900px;
   height: 500px;
