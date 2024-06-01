@@ -19,7 +19,7 @@
     rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  
+
 
 
   <!-- Template Main CSS File -->
@@ -31,56 +31,56 @@
 
 <body>
   <!-- scrollToTop -->
-	<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
-    <header class="header fixed clearfix navbar navbar-fixed-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="header-left">
-                        <div class="logo-section smooth-scroll">
-                            <div class="brand"><a href="#banner"><b>Clapcom</b> Studios</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="header-right">
-                        <div class="main-navigation animated">
-                            <nav class="navbar navbar-default" role="navigation">
-                                <div class="container-fluid">
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                                data-target="#navbar-collapse-1">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                    </div>
-                                    <div class="navbar-collapse collapse">
-                                        <ul class="nav navbar-nav pull-right">
-                                            <li class="active"><a href="index.html">Home</a></li>
-                                            <li class="dropdown">
-                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Game Guide <span class="caret"></span></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a href="controles.html">Controls</a></li>
-                                                    <li><a href="game.html">Game</a></li>
-                                                    <li><a href="enemies.html">Enemies</a></li>
-                                                    <li><a href="levels.html">Levels</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="engine.html">Engine</a></li>
-                                            <li><a href="production.html">Production</a></li>
-                                            <li><a href="aboutus.html">About Us</a></li>
-                                        </ul>
-                                    </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
+  <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+  <header class="header fixed clearfix navbar navbar-fixed-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="header-left">
+            <div class="logo-section smooth-scroll">
+              <div class="brand"><a href="#banner"><b>Clapcom</b> Studios</a></div>
             </div>
+          </div>
         </div>
-    </header>
-	<!-- header end -->
+        <div class="col-md-8">
+          <div class="header-right">
+            <div class="main-navigation animated">
+              <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav pull-right">
+                      <li class="active"><a href="index.html">Home</a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                          aria-expanded="false">Game Guide <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="controles.html">Controls</a></li>
+                          <li><a href="game.html">Game</a></li>
+                          <li><a href="enemies.html">Enemies</a></li>
+                          <li><a href="levels.html">Levels</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="engine.html">Engine</a></li>
+                      <li><a href="production.html">Production</a></li>
+                      <li><a href="aboutus.html">About Us</a></li>
+                    </ul>
+                  </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
 
   <br>
   <br>
@@ -104,62 +104,46 @@
       </div>
 
 
-      <div class="row">
-        <div class="column-four filterDiv code">
-          <div class="our-team">
-            <div class="pic">
-              <img src="images/team/David_Ruiz.png">
+      <div class="row" id="team-container"></div>
 
+      <!-- Pop-up -->
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span>
+          <div class="popup-row">
+            <div class="popup-column">
+              <img id="popup-img" src="" alt="">
             </div>
-            <a href="team/David_Ruiz.html">
-              <div class="team-content">
-                <h3 class="title">David Ruiz</h3>
-                <span class="post">Code Lead</span>
-              </div>
-            </a>
+            <div class="popup-column">
+              <h1 id="popup-name"></h1>
+              <h2 id="popup-role"></h2>
+              <p id="popup-description"></p>
+            </div>
+          </div>
+          <div class="popup-column">
+            <h1> GALERIA PERSONAL </h1>
+            <p> Aqui se mostrarian todas las imagenes de las implementaciones de cada persona </p>
+
+          </div>
+          <div class="popup-row">
+            <img src="images/projects/SoniaOjeda/TexRaisen1.png">
+            <img src="images/projects/SoniaOjeda/TexRaisen1.png">
           </div>
         </div>
-        <div class="column-four filterDiv design">
-          <div class="our-team">
-            <div class="pic">
-              <img src="images/team/David_Ruiz.png">
-            </div>
-            <a href="team/David_Ruiz.html">
-              <div class="team-content">
-                <h3 class="title">David Ruiz</h3>
-                <span class="post">Design Lead</span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="column-four filterDiv art">
-          <div class="our-team">
-            <div class="pic">
-              <img src="images/team/David_Ruiz.png">
-
-            </div>
-            <a href="team/David_Ruiz.html">
-              <div class="team-content">
-                <h3 class="title">David Ruiz</h3>
-                <span class="post">Art Lead</span>
-              </div>
-            </a>
-          </div>
-        </div>
-
-
       </div>
+    </div>
 
 
-       <!-- Scripts -->
-      <script type="text/javascript" src="plugins/jquery.min.js"></script>
-      <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="plugins/modernizr.js"></script>
-      <script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
-      <script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
-      <script type="text/javascript" src="plugins/jquery.appear.js"></script>
-      <script type="text/javascript" src="js/custom.js"></script>
-      <script src="js/team-filter.js"></script>
+    <!-- Scripts -->
+    <script type="text/javascript" src="plugins/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="plugins/modernizr.js"></script>
+    <script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script src="js/team-filter.js"></script>
 
+    <!-- Template Main JS File -->
+    <script src="js/team-filter.js"></script>
 </body>
-

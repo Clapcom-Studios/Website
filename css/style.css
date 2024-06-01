@@ -675,7 +675,7 @@ h4.heading {
 	float: left;
 }
 .brand {
-	font-size: 38px;
+	font-size: 34px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -754,7 +754,7 @@ h4.heading {
 		 
 	}
 	.brand {
-    font-size: 22px;
+		font-size: 20px;
 	}
 .fixed-header-on .header , .navbar-fixed-top{
     padding: 5px 0;
