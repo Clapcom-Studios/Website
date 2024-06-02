@@ -1,30 +1,57 @@
-document.getElementById('shotgun').addEventListener('click', function () {
-    document.getElementById('model').src = 'weapons/Shotgun.glb';
-    updateWeaponStats('Shotgun', 7, 4, 9);
-});
+document.addEventListener('DOMContentLoaded', () => {
+    const modelViewer = document.querySelector('model-viewer');
 
-document.getElementById('submachine').addEventListener('click', function () {
-    document.getElementById('model').src = 'weapons/Submachine.glb';
-    updateWeaponStats('Submachine', 5, 6, 10);
-});
-
-document.getElementById('plasmaCannon').addEventListener('click', function () {
-    document.getElementById('model').src = 'weapons/PlasmaCannon.glb';
-    updateWeaponStats('Plasma Cannon', 9, 5, 3);
-});
-
-function updateWeaponStats(name, power, distance, rate) {
-    document.getElementById('weapon-name').textContent = name;
-    document.getElementById('power-bar').innerHTML = createBar(power);
-    document.getElementById('distance-bar').innerHTML = createBar(distance);
-    document.getElementById('rate-bar').innerHTML = createBar(rate);
-    document.getElementById('weapon-stats').style.display = 'block';
-}
-
-function createBar(value) {
-    let barHtml = '';
-    for (let i = 0; i < 10; i++) {
-        barHtml += `<div style="${i < value ? 'background-color: #08f;' : 'background-color: #444;'}"></div>`;
+    
+    function setupAnimations() {
+        if (modelViewer.availableAnimations.length > 1) {
+            let currentAnimationIndex = 0;
+            modelViewer.addEventListener('animation-finish', () => {
+                currentAnimationIndex = (currentAnimationIndex + 1) % modelViewer.availableAnimations.length;
+                modelViewer.animationName = modelViewer.availableAnimations[currentAnimationIndex];
+                modelViewer.play();
+            });
+        }
     }
-    return barHtml;
-}
+
+    
+    ['facehugger', 'queen', 'spitter', 'xenomorph'].forEach(id => {
+        document.getElementById(id).addEventListener('click', function () {
+            modelViewer.src = `enemies/${this.id.charAt(0).toUpperCase() + this.id.slice(1)}.glb`;
+            modelViewer.onload = () => {
+                setupAnimations(); 
+                modelViewer.play();
+            };
+            updateStats(this.id); 
+        });
+    });
+
+    function updateStats(enemyId) {
+        const stats = { 
+            'facehugger': [25, 8.3, 8.3, 8.3, 16.6, 8.3],
+            'queen': [25, 25, 25, 25, 25, 25],
+            'spitter': [8.3, 25, 16.6, 25, 16.6, 25],
+            'xenomorph': [16.6, 16.6, 16.6, 16.6, 25, 16.6]
+        }[enemyId];
+        updateEnemyStats(enemyId.charAt(0).toUpperCase() + enemyId.slice(1), ...stats);
+    }
+
+    function updateEnemyStats(name, speed, hp, armor, damage, attackSpeed, attackRange) {
+        document.getElementById('enemy-name').textContent = name;
+        document.getElementById('speed-bar').innerHTML = createBar(speed);
+        document.getElementById('hp-bar').innerHTML = createBar(hp);
+        document.getElementById('armor-bar').innerHTML = createBar(armor);
+        document.getElementById('damage-bar').innerHTML = createBar(damage);
+        document.getElementById('attack-speed-bar').innerHTML = createBar(attackSpeed);
+        document.getElementById('attack-range-bar').innerHTML = createBar(attackRange);
+        document.getElementById('enemy-stats').style.display = 'block';
+    }
+
+    function createBar(value) {
+        let barHtml = '';
+        const totalSquares = 25; 
+        for (let i = 0; i < totalSquares; i++) {
+            barHtml += `<div class='${i < value ? "active" : ""}'></div>`;
+        }
+        return barHtml;
+    }
+});
