@@ -4,21 +4,45 @@ const teamMembers = [
     role: "Code Lead",
     imgSrc: "images/team/Francesc Teruel Rodríguez.jpg",
     category: "code",
-    description: "FRANSEX the GOAT. FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT."
+    description: "FRANSEX the GOAT. FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.FRANSEX the GOAT.",
+    social: {
+      facebook: "",
+      twitter: "https://twitter.com/francescteruel",
+      linkedin: "https://linkedin.com/in/francescteruel",
+      github: "https://github.com/francesctr4",
+      portfolio: "",
+      artstation: "",
+    }
   },
   {
     name: "Ivan Bermúdez",
     role: "Design Lead",
     imgSrc: "images/team/Iván Bermúdez Sagra.jpg",
     category: "design",
-    description: "Ivan is the design lead, ensuring our games are visually stunning."
+    description: "Ivan is the design lead, ensuring our games are visually stunning.",
+    social: {
+      facebook: "https://facebook.com/ivanbermudez",
+      twitter: "https://twitter.com/ivanbermudez",
+      linkedin: "https://linkedin.com/in/ivanbermudez",
+      github: "",
+      portfolio: "",
+      artstation: "",
+    }
   },
   {
     name: "David Ruiz",
     role: "Art Lead",
     imgSrc: "images/team/David_Ruiz.png",
     category: "art",
-    description: "Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)"
+    description: "Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)Como dibuja el tio que bueno es el lead :)",
+    social: {
+      facebook: "https://facebook.com/davidruiz",
+      twitter: "https://twitter.com/davidruiz",
+      linkedin: "https://linkedin.com/in/davidruiz",
+      github: "",
+      portfolio: "",
+      artstation: "",
+    }
   }
 ];
 
@@ -28,7 +52,7 @@ teamMembers.forEach(member => {
   const card = document.createElement('div');
   card.classList.add('column-four', 'filterDiv', member.category);
   card.innerHTML = `
-    <div class="our-team" onclick="showPopup('${member.name}', '${member.role}', '${member.imgSrc}', '${member.description}')">
+    <div class="our-team" onclick="showPopup('${member.name}', '${member.role}', '${member.category}', '${member.imgSrc}', '${member.description}', ${JSON.stringify(member.social).replace(/"/g, '&quot;')})">
       <div class="pic">
         <img src="${member.imgSrc}">
       </div>
@@ -83,13 +107,25 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-function showPopup(name, role, imgSrc, description) {
+function showPopup(name, role, category, imgSrc, description, social) {
   document.getElementById('popup-name').innerText = name;
   document.getElementById('popup-role').innerText = role;
   document.getElementById('popup-description').innerText = description;
   document.getElementById('popup-img').src = imgSrc;
+
+  // Añadir HTML para iconos de redes sociales con enlaces personalizados o desactivados
+  document.getElementById('popup-social-icons').innerHTML = `
+    <div class="social-icons">
+      <a href="${social.linkedin || '#'}" target="_blank" class="${social.linkedin ? '' : 'disabled'}"><i class="fab fa-linkedin"></i></a>
+      <a href="${social.github || '#'}" target="_blank" class="${social.github ? '' : 'disabled'}"><i class="fab fa-github"></i></a>
+      ${category === 'art' ? `<a href="${social.artstation || '#'}" target="_blank" class="${social.artstation ? '' : 'disabled'}"><i class="fab fa-artstation"></i></a>` : ''}
+      <a href="${social.portfolio || '#'}" target="_blank" class="${social.portfolio ? '' : 'disabled'}"><i class="fas fa-user"></i></a>
+    </div>
+  `;
+
   document.getElementById('popup').style.display = 'block';
 }
+
 
 function closePopup() {
   document.getElementById('popup').style.display = 'none';
