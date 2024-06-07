@@ -1,6 +1,6 @@
 const texts = [
     "You are about to be activated in the heart of the dark universe of Alien. Created by the Weyland-Yutani corporation, your existence is key in the balance of life and death. Are you ready to face your destiny?",
-    "The year is 2400, and the Weyland-Yutani corporation has extended its reach to the darkest confines of the universe. As a human-Xenomorph hybrid created in their secret laboratories, your first sight will be GLS 667, a planet designed as a testing ground for your abilities.",
+    "The year is 2400, and the Weyland-Yutani corporation has extended its reach to the darkest confines of the universe. As a human-Xenomorph hybrid created in their secret laboratories, your first sight will be GLS 667.",
     "Your existence is not an accident. You are programmed to clear the planet of hostile threats and retrieve critical data from bioengineering experiments. The creatures you will face are as much a part of you as the air you breathe. Prepare to fulfill your function.",
     "You are Raisen, the culmination of decades of genetic research, designed to be efficient, lethal, and obedient. Armed with cutting-edge technology and inhuman abilities, every step you take is calculated to carry out your mission.",
     "Navigate through abandoned facilities and alien landscapes filled with dangers. Each enemy you defeat, each secret you uncover, brings you closer to understanding your own existence. Manage your resources, optimize your capabilities, and discover the truth behind your creation.",
