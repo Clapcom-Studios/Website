@@ -439,23 +439,23 @@ body {
 
 
 .card {
-  width: 900px;
-  height: 500px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid #4cacaf;
-  padding: 40px; 
-  box-shadow: 0 0 15px #4cacaf;
+  width: 80vw; 
+  max-width: 900px; 
+  min-height: 300px; 
+  max-height: 80vh; 
+  overflow: auto;
+  padding: 20px;
+  box-shadow: 0 0 20px #4cacaf;
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .card img {
-  width: 200px;
-  height: auto;
-  margin-left: 20px;
-  margin-top: 20px;
+  
+  max-width: 100%; 
+  height: auto; 
+  margin: 10px 0; 
+
 }
 
 .card h2 {
@@ -476,11 +476,11 @@ body {
 }
 
 .images-container {
-  display: flex;  /* Activa Flexbox */
-  flex-wrap: wrap;  /* Permite que los elementos se pasen a la siguiente línea si no hay espacio */
-  align-items: center;  /* Alinea verticalmente las imágenes en el centro si tienen diferentes alturas */
-  justify-content: flex-start;  /* Alinea las imágenes al inicio del contenedor */
-  gap: 10px;  /* Espacio entre las imágenes */
+  display: flex;  
+  flex-wrap: wrap;  
+  align-items: center;  
+  justify-content: flex-start;  
+  gap: 10px;  
 }
 
 
