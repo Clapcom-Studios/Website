@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    ['facehugger', 'queen', 'spiter', 'xenomorph'].forEach(id => {
+    ['facehugger', 'spitter', 'xenomorph'].forEach(id => {
         document.getElementById(id).addEventListener('click', function () {
             modelViewer.src = `enemies/${this.id.charAt(0).toUpperCase() + this.id.slice(1)}.glb`;
             modelViewer.onload = () => {
@@ -34,21 +34,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateStats(enemyId) {
         const stats = { 
-            'facehugger': [25, 8.3, 8.3, 8.3, 16.6, 8.3],
-            'queen': [25, 25, 25, 25, 25, 25],
-            'spiter': [8.3, 25, 16.6, 25, 16.6, 25],
-            'xenomorph': [16.6, 16.6, 16.6, 16.6, 25, 16.6]
+            'facehugger': [25, 8.3, 8.3, 8.3],
+            'xenomorph': [16.6, 16.6, 16.6, 16.6],
+            'spitter': [8.3, 25, 25, 25],
         }[enemyId];
         updateEnemyStats(enemyId.charAt(0).toUpperCase() + enemyId.slice(1), ...stats);
     }
 
-    function updateEnemyStats(name, speed, hp, armor, damage, attackSpeed, attackRange) {
+    function updateEnemyStats(name, speed, hp, damage, attackRange) {
         document.getElementById('enemy-name').textContent = name;
         document.getElementById('speed-bar').innerHTML = createBar(speed);
         document.getElementById('hp-bar').innerHTML = createBar(hp);
-        document.getElementById('armor-bar').innerHTML = createBar(armor);
         document.getElementById('damage-bar').innerHTML = createBar(damage);
-        document.getElementById('attack-speed-bar').innerHTML = createBar(attackSpeed);
         document.getElementById('attack-range-bar').innerHTML = createBar(attackRange);
         document.getElementById('enemy-stats').style.display = 'block';
     }

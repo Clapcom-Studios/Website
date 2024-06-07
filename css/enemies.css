@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: flex-start;
     margin: 10px;
-    flex: 1 1 48%; /* Asegura que cada stat tome alrededor del 48% del contenedor, permitiendo dos por fila */
+    flex: 1 1 48%; 
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -25,6 +25,7 @@
 
 .stat-bar div {
     height: 100%;
+    margin-top: 4px;
     width: 4%;
     background-color: #444;
 }
