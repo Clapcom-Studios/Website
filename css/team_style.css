@@ -417,8 +417,13 @@ body {
 }
 
 .popup-perfilimg img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; /* Esto asegura que la imagen cubra todo el contenedor, recortando si es necesario */
+    object-position: center; /* Esto asegura que el recorte ocurra en la parte inferior */
     border-radius: 10px;
 }
+
 
 .popup-column h1 {
     font-family: 'Audiowide', sans-serif;
