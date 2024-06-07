@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const modelViewer = document.querySelector('model-viewer');
 
-    
     function setupAnimations() {
         if (modelViewer.availableAnimations.length > 1) {
             let currentAnimationIndex = 0;
@@ -13,8 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    
-    ['facehugger', 'queen', 'spitter', 'xenomorph'].forEach(id => {
+    ['facehugger', 'queen', 'spiter', 'xenomorph'].forEach(id => {
         document.getElementById(id).addEventListener('click', function () {
             modelViewer.src = `enemies/${this.id.charAt(0).toUpperCase() + this.id.slice(1)}.glb`;
             modelViewer.onload = () => {
@@ -25,11 +23,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Configuración por defecto al cargar
+    const defaultModelId = 'xenomorph'; // Establece el modelo por defecto
+    modelViewer.src = `enemies/${defaultModelId.charAt(0).toUpperCase() + defaultModelId.slice(1)}.glb`;
+    modelViewer.onload = () => {
+        setupAnimations();
+        modelViewer.play();
+    };
+    updateStats(defaultModelId); // Actualizar los stats por defecto
+
     function updateStats(enemyId) {
         const stats = { 
             'facehugger': [25, 8.3, 8.3, 8.3, 16.6, 8.3],
             'queen': [25, 25, 25, 25, 25, 25],
-            'spitter': [8.3, 25, 16.6, 25, 16.6, 25],
+            'spiter': [8.3, 25, 16.6, 25, 16.6, 25],
             'xenomorph': [16.6, 16.6, 16.6, 16.6, 25, 16.6]
         }[enemyId];
         updateEnemyStats(enemyId.charAt(0).toUpperCase() + enemyId.slice(1), ...stats);
