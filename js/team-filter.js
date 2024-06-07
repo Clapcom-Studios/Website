@@ -1,5 +1,36 @@
 const teamMembers = [
   //--- LEADS ---
+  //Pau Argiz
+  {
+    name: "Pau Argiz",
+    role: "Producer",
+    imgSrc: "images/team/Pau Argiz Gutiérrez.png",
+    category: "design",
+    description: `"As the Producer of the project, I was responsible for creating a comprehensive production plan to guide our development process. I organized the team and tasks, ensuring everyone knew their responsibilities and deadlines, and maintained our organization tools to keep everything on track.<br><br>
+    Implementing the Scrum methodology, I led regular sprints and kept the team focused and adaptable. I managed risk by identifying potential issues and developing mitigation strategies, ensuring we stayed on schedule.<br><br>
+    I also intervened in conflicts, mediated discussions, and negotiated solutions to maintain a productive, friendly, and calm work environment. Providing general guide document, I helped align the team with our project goals and how to work together.<br><br>
+    Playtesting sessions were key, and I organized and conducted these to gather feedback and refine our game. The development of this project has helped me discover my interest for project management and team leadership, particularly in the dynamic field of game production."`,
+    tasks: `- Team & tasks organization<br>
+    - Production plan<br>
+    - Risk manager<br>
+    - Organitzation tools mantainment<br>
+    - Scrum methodology<br>
+    - Intervention, meditation and negotiation<br>
+    - General Guide<br>
+    - Playtesting sessions`,
+    media: [
+      { type: 'image', src: "images/projects/", description: "Description" },
+    ],
+    social: {
+      twitter: "",
+      linkedin: "https://es.linkedin.com/in/pau-argiz",
+      github: "https://github.com/PauM4",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
   //Fransesc Teruel
   {
     name: "Francesc Teruel",
@@ -16,8 +47,14 @@ const teamMembers = [
     - Lighting System<br>
     - Performance Profiling`,
     media: [
-      { type: 'image', src: "images/projects/Francesc/1.png", description: "Description for image 1" },
-      { type: 'image', src: "images/projects/Francesc/2.png", description: "Description for image 2" }
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Lighting System 1.png", description: "Description" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Material Pipeline 1.png", description: "Description" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Lighting System 2.png", description: "Description" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Material Pipeline 2.png", description: "Description" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Lighting System 3.png", description: "Description" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Material Pipeline 3.png", description: "Description" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Shader Pipeline.png", description: "Description" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Resource Management.png", description: "Description" },
     ],
     social: {
       linkedin: "https://www.linkedin.com/in/francesc-teruel-rodriguez/",
@@ -81,38 +118,11 @@ const teamMembers = [
     }
   },
 
-  //Pau Argiz
-  {
-    name: "Pau Argiz",
-    role: "Producer",
-    imgSrc: "images/team/Pau Argiz Gutiérrez.png",
-    category: "design",
-    description: `"As the Producer of the project, I was responsible for creating a comprehensive production plan to guide our development process. I organized the team and tasks, ensuring everyone knew their responsibilities and deadlines, and maintained our organization tools to keep everything on track.<br><br>
-    Implementing the Scrum methodology, I led regular sprints and kept the team focused and adaptable. I managed risk by identifying potential issues and developing mitigation strategies, ensuring we stayed on schedule.<br><br>
-    I also intervened in conflicts, mediated discussions, and negotiated solutions to maintain a productive, friendly, and calm work environment. Providing general guide document, I helped align the team with our project goals and how to work together.<br><br>
-    Playtesting sessions were key, and I organized and conducted these to gather feedback and refine our game. The development of this project has helped me discover my interest for project management and team leadership, particularly in the dynamic field of game production."`,
-    tasks: `- Team & tasks organization<br>
-    - Production plan<br>
-    - Risk manager<br>
-    - Organitzation tools mantainment<br>
-    - Scrum methodology<br>
-    - Intervention, meditation and negotiation<br>
-    - General Guide<br>
-    - Playtesting sessions`,
-    media: [
-      { type: 'image', src: "images/projects/", description: "Description" },
-    ],
-    social: {
-      twitter: "",
-      linkedin: "https://es.linkedin.com/in/pau-argiz",
-      github: "https://github.com/PauM4",
-      portfolio: "",
-      artstation: "",
-      itchio: ""
-    }
-  },
+
   //AQUI ACABAN LOS LEADS
+
   //------------- ART -------------
+
   //Guillem Pol Aixut
   {
     name: "Guillem Pol Aixut",
@@ -431,8 +441,495 @@ const teamMembers = [
     }
   },
 
-];
+  //------------- DESIGN -------------
 
+  //Jose Antonio Tur
+  {
+    name: "Jose Antonio Tur",
+    role: "Design Member",
+    imgSrc: "images/team/Jose Antonio Tur Izquierdo.png",
+    category: "design",
+    description: `As a designer, at the beginning of the project I was in charge of doing the necessary research to understand everything that involves both the Alien IP and the main aspects of a Diablo-like game, writing them down in a concept discovery document.<br><br>
+    Later on, I was in charge of preparing the structure of the design document and filling in information such as graphics (game flow, gameloop etc), and gameplay aspects adapted to the constraints of the project, writing all of these into a GDD for the different departments to have the relevant information handy.
+    Thanks to the research done previously, I was able to create a narrative in an interesting setting and characters that does not break with the original lore of the saga, and manages to expand with new concepts.<br><br>
+    This project has allowed me to work closely with different departments, showing me how to better communicate an idea or concept to a large group of people.`,
+    tasks: `- GDD<br>
+    - Narrative`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/jose-antonio-tur-izquierdo-984019256/",
+      github: "https://github.com/flishflash",
+      portfolio: "https://joseantoniotur.carrd.co/",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Oriol Martin 
+  {
+    name: "Oriol Martin",
+    role: "Design Member",
+    imgSrc: "images/team/Oriol Martin Corella.jpg",
+    category: "design",
+    description: `In this project, I have passionately embraced the role of UI/UX Designer, focusing on creating an engaging and intuitive user interface that players find both visually appealing and easy to navigate. Additionally, I was also responsible for thoroughly documenting interface designs in the Game Design Document (GDD), ensuring that every detail was clearly communicated for implementation. Beyond UI/UX, I managed all aspects of web development and social media. I also participated in the lighting of the game scenes, contributing to the visual ambiance and gameplay experience.`,
+    tasks: `- UX/UI<br>
+    - Web Development and Social Media Management<br>
+    - GDD Documentation`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/urimartincorella/",
+      github: "",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Andreu Miró
+  {
+    name: "Andreu Miró",
+    role: "Design Member",
+    imgSrc: "images/team/Andreu Miró.jpg",
+    category: "design",
+    description: `In this project i worked as a designer, being the level designer of the base and one of the levels of our game. Later i participated in the creation of the VFX, more specificly creating the particles.<br><br>
+    This project showed me how to work with a large team, how important comunication is and the effect VFX have on the player.`,
+    tasks: `- Level Design <br>
+    - Particles`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "www.linkedin.com/in/andreu-miró-sabaté",
+      github: "https://github.com/AndreuMiroSabate",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Xavier Prats
+  {
+    name: "Xavier Prats",
+    role: "Design Member",
+    imgSrc: "images/team/Xavi Prats.png",
+    category: "design",
+    description: `As a dedicated game designer, I poured my heart and countless hours into meticulously developing various aspects of our game project. This involved designing captivating gameplay mechanics, such as the extraction method and other player mechanics. I also designed the items and all the systems around them: inventory, crafting, loot, and enemy drops.<br><br>
+    Later in the project, I focused on creating wireframes for the UI, which the incredible Art and Code team brought to life. Moreover, I learned to have effective cross-departmental communication, understand project limitations, and embrace diverse ideas from all departments.<br><br>
+    Additionally, I did some playtesting to gather crucial feedback and communicated it to the team in order to make our game what it should be: fun.<br><br>
+    This project was such a challenge, and I am so proud of the team and the outcome of the videogame.`,
+    tasks: `-Gameplay Design <br>
+    -Items and Inventory <br>
+    -UX/UI <br>
+    -QA`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/xavier-prats-paredes/",
+      github: "https://github.com/Xarderos",
+      portfolio: "",
+      artstation: "",
+      itchio: "https://xarderos.itch.io"
+    }
+  },
+
+  //Eric Segovia
+  {
+    name: "Eric Segovia",
+    role: "Design Member",
+    imgSrc: "images/team/ÉricSegovia.png",
+    category: "design",
+    description: `In this project I worked as a game designer, first working on the design of the Main Characther Raisen, which includes her physical description with moodboards and references and her personality with description on her way of moving and interacting with others. I also designed her mechanichs like her 3 skills and the stats of all her weapons using spreadsheets.<br><br>
+    Later on the project I helped the code deparment implementing a Particle System and implementing some of the particles of the weapons.`,
+    tasks: `-Gameplay Design.<br>
+    -Stats balancing<br>
+    -Particles Programmer`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/%C3%A9ric-segovia-baena-573017177/",
+      github: "https://github.com/Icefenix7198",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Joel Romero
+  {
+    name: "Joel Romero",
+    role: "Design Member",
+    imgSrc: "images/team/Joel Romero Botella.PNG",
+    category: "design",
+    description: `In this project, I have employed a variety of techniques and tools to contribute significantly to the Design Department. Additionally, I have extended my assistance to several tasks beyond my primary role. Specifically, I have worked on audio and music aspects, including Sound Effects (SFX) and Soundtracks, utilizing the Wwise software.<br><br>
+    Furthermore, I have contributed to the development of the game and company logos, as well as the creation of weapon artwork. These efforts have collectively enhanced the overall quality and cohesiveness of our design outputs.`,
+    tasks: `- Gameplay Design<br>
+    - Weapons Design<br>
+    - Audio Design`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/joel-romero-botella-b280381b8/",
+      github: "https://github.com/Joeltecke25",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Victor Gil
+  {
+    name: "Victor Gil",
+    role: "Design Member",
+    imgSrc: "images/team/VictorGil.jpg",
+    category: "design",
+    description: `In this project I have taken the role of designer, starting by designing and perfecting two of the three main levels of our game, as well as dedicating myself to audio (SFX and Music) as my main job. I have also been in charge of the lighting design and placement.<br><br>
+    After working on such a large team project I have been able to understand the importance of the communication and organization behind it, first hand. Now I feel more than prepared for the industry and the professional world.`,
+    tasks: `- Level Design<br>
+    - Audio Design & Implementation<br>
+    - Lightning Design`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "",
+      github: "https://github.com/Ludo-pixel",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //------------- CODE -------------
+
+  //Xiao Shan Costajussà
+  {
+    name: "Xiao Shan Costajussà",
+    role: "Code Member",
+    imgSrc: "images/team/",
+    category: "code",
+    description: ``,
+    tasks: ``,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "",
+      github: "",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Nixon Daniel Correa
+  {
+    name: "Nixon Correa",
+    role: "Code Member",
+    imgSrc: "images/team/Nixon_Correa.jpg",
+    category: "code",
+    description: `During this project, I started with the implementation of Raycast, an essential tool for collision detection. Then, I performed QA of the engine and the scripting module, followed by the development of an electric trap and chest animation. I also worked on the particle effects of the electric trap and fixed some bugs. Finally, I performed QA of the base level.<br><br>
+    This project has taught me the importance of teamwork and effective communication. It has been a difficult job, but very valuable for my professional development.`,
+    tasks: `- Electric traps and their particles<br>
+    - Base level QA & polish<br>
+    - Chest animation<br>
+    - Raycast implementation<br>
+    - Bug fixing & QA`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/nixon-correa-818388244/",
+      github: "https://github.com/Nixonbit3",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Lluc Estruch
+  {
+    name: "Lluc Estruch",
+    role: "Code Member",
+    imgSrc: "images/team/LlucEstruch.jpg",
+    category: "code",
+    description: `In this project, I have been responsible for programming. <br><br>
+    First, in the making of the engine I implemented the physics system and modified it to fit the necessities of the project. <br><br>
+    Then, I have been in charge of the first level scene,implementing all elements, including the tutorial, and making sure everything is alright.`,
+    tasks: `- Physics Engine Implementation<br>
+    - Tutorial implementation<br>
+    - Lvl 1 assets and scripts implementation<br>
+    - Lvl 1 QA and polish<br>
+    - Bug fixing`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/lluc-estruch-andreu-5405b5279/",
+      github: "https://github.com/Llucaieaie",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Mario García
+  {
+    name: "Mario García",
+    role: "Code Member",
+    imgSrc: "images/team/Mario García.jpg",
+    category: "code",
+    description: `During this project I have been in charge of the role of programmer.<br><br>
+    At the beginning I did the implementation of the Audio module in the game engine.<br><br>
+    Later, I became gameplay programmer, creating a first iteration of the weapon system. And finally, I made all the player's skills and interactions, apart from fixing bugs and doing QA.`,
+    tasks: `- Audio module implementation<br>
+    - Player structure programming<br>
+    - First weapon implementation<br>
+    - Player skills programming<br>
+    - Fix a lot of player bugs`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/mario-garcía-sutil-7086072b2/",
+      github: "https://github.com/mariogs5",
+      portfolio: "https://mariogs5.github.io/Portfolio/",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Eric Luque
+  {
+    name: "Eric Luque",
+    role: "Code Member",
+    imgSrc: "images/team/Eric Luque.jpeg",
+    category: "code",
+    description: `At the start of the project, my primary responsibility was integrating the scripting system into the Ymir Engine. In addition, I handled the implementation of assets and scripting for Level 2 Part 1, ensuring seamless functionality through rigorous quality assurance (QA) and final polishing. I also played a key role in bug fixing to ensure the best possible user experience.<br><br>
+    For the game's narrative elements, I focused on the design and implementation of loot chests, doors, the dialogue system, and other essential story components. Additionally, I enhanced the quality of life when working with the Ymir Engine, improving the efficiency and usability of the tools.`,
+    tasks: `- Scripting system integration in Ymir Engine<br>
+    - Lvl 2 Part 1 assets & scripting implementation<br>
+    - Lvl 2 Part 1 QA and Polish<br>
+    - Bug fixing<br>
+    - Loot chest, doors, dialogue system and narrative elements<br>
+    - QoL working with Ymir Engine<br>
+    - Enemy health bar`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/ericgamedev/",
+      github: "https://github.com/ericlr1",
+      portfolio: "https://ericlr1.github.io",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Sara Qiao Martínez
+  {
+    name: "Sara Qiao Martínez",
+    role: "Code Member",
+    imgSrc: "images/team/Sara Qiao Martínez Mauri.png",
+    category: "code",
+    description: `Throughout this project, I've contributed to the development of various engine features as well as the implementation of the UI module with all the necessary elements and funcionalities to link it with scripts. Additionally, I've taken charge of some menu implementations, designing and implementing a system to manage the player's items and a save and load system for the game.<br><br>
+    Alongside these responsibilities, I've been dedicated to resolving any bugs or glitches encountered, ensuring the functionality of the game in general.<br><br>
+    Working alongside a diverse group of teammates, I've learned the importance of patience, flexibility, and open communication. This experience has enhanced both my interpersonal skills in conflict resolution and my teamwork capabilities in order to achieve shared goals.`,
+    tasks: `- Ymir Engine Development Support<br>
+    - Ymir Engine Theme<br>
+    - UI Engine Implementation<br>
+    - Game Menus<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;- Main menu<br> 
+    &nbsp;&nbsp;&nbsp;&nbsp;- HUD<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;- Death menu<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;- Loading scene<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;- Level Selector<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;- Pause<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;- Support in other menus<br>
+    - Game Save&Load<br>
+    - Items system<br>
+    - Bug fixing`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "www.linkedin.com/in/sara-qiao-martínez-mauri",
+      github: "https://github.com/lSara-MM",
+      portfolio: "",
+      artstation: "",
+      itchio: "https://lsaramm.itch.io/"
+    }
+  },
+
+  //Ignacio Moreno
+  {
+    name: "Ignacio Moreno",
+    role: "Code Member",
+    imgSrc: "images/team/",
+    category: "code",
+    description: `In this project, i have taken the role of programmer. At the beginning, I was in charge of implementing the animations module, making possible to import our animations to the engine and creating a file containing the imported animation. <br><br>
+    I have also contributed to create the pathfinding module and navmesh, in order to make the enemies movement possible. Then, i helped with the behavior of the enemies and implemented the item drop when an enemy dies. Finally, i was in charge of fix memory issues of the engine when the scene different scenes were cleared. <br><br>
+    Being part of this project taught me how to work with such a big team and helped me to develop organizational and communication skills. `,
+    tasks: `- Animation module implementation of Ymir Engine<br>
+    - Pathfinding and navmesh module implementation of Ymir Engine<br>
+    - Enemies item drop<br>
+    - Fix memory issues<br>
+    - Bug fixing`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/nacho-moreno-navarro-b009b4310/",
+      github: "https://github.com/NachoMoren",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Antonio Romanos
+  {
+    name: "Antonio Romanos",
+    role: "Code Member",
+    imgSrc: "images/team/",
+    category: "code",
+    description: ``,
+    tasks: ``,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "",
+      github: "",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Biel Rubio
+  {
+    name: "Biel Rubio",
+    role: "Code Member",
+    imgSrc: "images/team/Biel Rubio Dieste.jpg",
+    category: "code",
+    description: `At the start of this project I worked on the Skeletal Animation Module, defining its structure and mainly focusing on the appropiate exportation of 3D models, and its Animation Blending feature.<br><br>
+    Once the Animations module was finished, I moved to scripting everything Weapon related and helping with the Player. <br><br>
+    This project has helped me understand the struggles of working with a big team, and how important it is to keep an effective channel of comunication between your collegues.`,
+    tasks: `- Skeletal Animation Engine Module<br>
+    - Scripting Skeletal Animation<br>
+    - Player Weapons<br>
+    - Player Bug Fixing`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/biel-rubio-dieste-2bba7b2b3/",
+      github: "https://github.com/BielRubio",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Marcel Sunyer
+  {
+    name: "Marcel Sunyer",
+    role: "Code Member",
+    imgSrc: "images/team/Marcel Sunyer Caldú.png",
+    category: "code",
+    description: `As a programmer, I frequently worked in the development and maintenance of scripting systems, taking on the responsibility of designing and optimizing various functions within these systems.<br><br>
+    Throughout my experience, I have worked on complex tasks that required close collaboration with other developers and multidisciplinary. <br><br>
+    During this long-term project, I have learned that working in large groups can be a significant challenge due to the need to coordinate multiple tasks and ensure that all team members are aligned on objectives and deadlines. This experience has taught me the crucial importance of effective communication.`,
+    tasks: `- Scripting system integration in Ymir Engine<br>
+    - Collisions system detector in scripting<br>
+    - Lvl 2 Part 2 scripting implementation<br>
+    - Tag implementation<br>
+    - Dialogue system<br>
+    - Cutscenes Implementation<br>
+    - Bug Fixing`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/marcel-sunyer-28910a133/",
+      github: "https://github.com/MarcelSunyer",
+      portfolio: "https://marcelsunyer.github.io/Marcel.github.io/",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Marc Escandell
+  {
+    name: "Marc Escandell",
+    role: "Code Member",
+    imgSrc: "images/team/Marc-Escandell.jpg",
+    category: "code",
+    description: `During the developement of this game, I have taken the role of a programmer.<br><br>
+    In this project I mainly worked on the motors physics system and component, along with gathering knowledge about Bullet physics library.<br><br>
+    After working on the engine, I have been in charge of ""Level 1: Warehouse"" where, alongside with my partner Lluc,  I implemented every feature and supervised its integrity, making sure everything was allright.<br><br>
+    Working on this project with so many people and departments was a very challenging experience. Nonetheless, it helped me upgrade my programming, organization and communication skills. I am very proud of
+    our work.`,
+    tasks: `- Physics Engine Implementation<br>
+    - Physics Component implementation<br>
+    - Tutorial implementation<br>
+    - Lvl 1 assets and scripts implementation<br>
+    - Lvl 1 & Physics QA and polish<br>
+    - Bug fixing`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/marc-escandell-alonso-4196202a7/",
+      github: "https://github.com/MrMonkey420",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Maksym Polupan
+  {
+    name: "Maksym Polupan",
+    role: "Code Member",
+    imgSrc: "images/team/Maksym_Polupan.jpg",
+    category: "code",
+    description: `During the making of this project, I have participated in implementing the animations into the engine (mainly UI) for the first weeks. Then I dedicated all of my work into the enemies logic up until the very end.`,
+    tasks: `- Engine animations implementation <br>
+    - Enemies Logic`,
+    media: [],
+    social: {
+      twitter: "",
+      linkedin: "",
+      github: "https://github.com/Maksym203",
+      portfolio: "",
+      artstation: "",
+      itchio: ""
+    }
+  },
+
+  //Andreu Nosàs
+  {
+    name: "Andreu Nosàs",
+    role: "Code Member",
+    imgSrc: "images/team/Andreu Nosas Soler.jpeg",
+    category: "code",
+    description: `At the beginning of the project, I was tasked to fix some features of the engine: the component transform of all game objects and its gizmo, mousepicking, and game object reparenting. I was also in charge of part of the implementation of the UI module in the engine, focusing on the render of all these elements, their transform component, the logic of the UI states and the navigation with both keyboard and gamepad. <br><br>
+    When it comes to the game itself, I dedicated myself to bring to life some of the most important UI menus, with the game systems associated with them. These menus are the crafting station, the upgrade station, the inventory, and the stash. With these tasks, there was a lot of bug fixing involved, to make sure that the game feel of the UI was the best possible.<br><br>
+    Working on this project has taught me how to work with a team with so many members, developing both key communication and organizational skills. `,
+    tasks: `- Minor Ymir Engine fixes<br>
+    - UI engine implementation<br>
+    - Crafting system and menu<br>
+    - Inventory menu and items<br>
+    - Upgrade system and menu<br>
+    - Stash menu<br>
+    - Bug fixing`,
+    media: [
+      { type: 'mp4', src: "images/projects/Code/Andreu Nosàs/CraftingStation.mp4", description: "Description" },
+      { type: 'mp4', src: "images/projects/Code/Andreu Nosàs/InventoryMenu.mp4", description: "Description" },
+      { type: 'mp4', src: "images/projects/Code/Andreu Nosàs/StashMenu.mp4", description: "Description" },
+      { type: 'mp4', src: "images/projects/Code/Andreu Nosàs/UpgradeStation.mp4", description: "Description" },
+    ],
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/andreu-nos%C3%A0s-soler",
+      github: "https://github.com/AndyCubico",
+      portfolio: "",
+      artstation: "",
+      itchio: "https://cubicoblanco.itch.io/"
+    }
+  },
+
+];
 
 /* 
   {
