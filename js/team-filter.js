@@ -77,7 +77,6 @@ const teamMembers = [
   }
 ];
 
-
 const teamContainer = document.getElementById("team-container");
 
 teamMembers.forEach((member) => {
@@ -182,9 +181,11 @@ function showPopup(member) {
         mediaElement.innerHTML = `<iframe src="${item.src}" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>${item.description}</p>`;
       } else if (item.type === 'gif') {
         mediaElement.innerHTML = `<img src="${item.src}"><p>${item.description}</p>`;
+      } else if (item.type === 'mp4') {
+        mediaElement.innerHTML = `<video width="560" height="315" controls><source src="${item.src}" type="video/mp4">Your browser does not support the video tag.</video><p>${item.description}</p>`;
       }
       galleryContainer.appendChild(mediaElement);
-    });    
+    });
   } else {
     gallerySection.style.display = "none";
   }
