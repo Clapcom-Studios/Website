@@ -134,9 +134,8 @@
                                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Game Elements</a>
                                                         <ul class="dropdown-menu">
                                                             <li><a href="weapons.html">Weapons</a></li>
-                                                            <li><a href="characters.html">Characters</a></li>
                                                             <li><a href="enemies.html">Enemies</a></li>
-                                                            <li><a href="story.html">Story</a></li> <!-- Nuevo ítem aquí -->
+                                                            <li><a href="story.html">Story</a></li>
                                                         </ul>
                                                     </li>
                                                     <li><a href="controles.html">Controls</a></li>
@@ -157,6 +156,29 @@
         </div>
     </header>
     
+    <audio id="buttonSound" style="display:none;">
+        <source src="music/basic.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var headerNavLinks = document.querySelectorAll(".navbar-nav a");
+            var sound = document.getElementById("buttonSound");
+    
+            headerNavLinks.forEach(function(link) {
+                link.addEventListener("click", function(e) {
+                    sound.play();
+    
+                    e.preventDefault();
+                    setTimeout(function() {
+                        window.location = link.href; 
+                    }, sound.duration * 1000); 
+                });
+            });
+        });
+    </script>
+
     <!-- Scripts -->
     <script src="js/loading.js"></script>
     <script type="text/javascript" src="plugins/jquery.min.js"></script>
