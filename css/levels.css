@@ -440,7 +440,8 @@ body {
 
 .card {
   width: 80vw; 
-  max-width: 900px; 
+  height: auto;
+  max-width: 1100px; 
   min-height: 300px; 
   max-height: 80vh; 
   overflow: auto;
@@ -448,13 +449,15 @@ body {
   box-shadow: 0 0 20px #4cacaf;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
+  margin-top: 200px;
+  transition: height 0.3s ease;
 }
 
 .card img {
   
   max-width: 100%; 
   height: auto; 
-  margin: 10px 0; 
+  
 
 }
 
@@ -483,6 +486,41 @@ body {
   gap: 10px;  
 }
 
+.swiper-container {
+  width: 100%; 
+  height: auto; 
+  overflow: hidden;
+}
 
 
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
 
+.swiper-wrapper {
+  margin: 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+
+.swiper-pagination, .swiper-button-prev, .swiper-button-next {
+  display: none; /* Oculta los controles de paginación y navegación */
+}
+
+.contenedor-padre { /* Ajusta el nombre según tu estructura */
+  display: flex;
+  flex-direction: column; /* Organiza los hijos en columna */
+  align-items: center; /* Centra horizontalmente si es necesario */
+}
+
+.elemento-interno { /* Cambia esto por la clase real o elemento */
+  overflow: hidden; /* Otra vez, previene que el contenido sobresalga */
+  height: auto; /* Altura automática basada en el contenido */
+}

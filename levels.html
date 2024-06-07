@@ -15,6 +15,9 @@
     <link href="css/levels.css" rel="stylesheet">
     <link href="css/loading.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <style>
         body {
             background-color: #11171d;
@@ -175,16 +178,16 @@
 
     <div class="scifi-nav">
         <div class="scifi-nav__system">
-            <li class="scifi-nav__orbit" data-title="USS Pandora - Base" data-content="This spaceship is a military vessel controlled by the AI MU-TH-UR 6000. This spaceship is where Raisen, a clone of a human fused with a Xenomorph, prepares herself for her missions. <br><br>
+            <li class="scifi-nav__orbit" data-title="USS Pandora - Base" data-content="<br>This spaceship is a military vessel controlled by the AI MU-TH-UR 6000. This spaceship is where Raisen, a clone of a human fused with a Xenomorph, prepares herself for her missions. <br><br>
 The spaceship is equipped with all the necessary stuff to help Raisen to complete her missions, an android that can create equipment from the materials of the planet, a workstation where Raisen upgrade her weapons, a box where Raisen can save all the materials of expeditions and a lot of lifeless clones of Raisen ready to substitute her in case she is killed in battle.
-" data-img="images/team/David_Ruiz.png" data-color="#70ffdb">
+" data-img="images/levels/Base.png, images/levels/Base-1.png, images/levels/Base-2.png" data-color="#70ffdb">
                 <a class="scifi-nav__satellite" href="javascript:void(0)">
                     <span class="scifi-nav__label">USS Pandora<span class="scifi-nav__description">Base</span></span>
                 </a>
             </li>
-            <li class="scifi-nav__orbit" data-title="The Warehouse" data-content="This warehouse was used to store the different materials extracted from the planet. At first sight this warehouse is completely abandoned and there are no signs of human activity. But the truth is that this place was used as a cover for the illegal laboratory under the planet. In this construction there are signs of battle and an attempt to stop something dangerous that will put humanity in danger.
+            <li class="scifi-nav__orbit" data-title="The Warehouse" data-content="<br>This warehouse was used to store the different materials extracted from the planet. At first sight this warehouse is completely abandoned and there are no signs of human activity. But the truth is that this place was used as a cover for the illegal laboratory under the planet. In this construction there are signs of battle and an attempt to stop something dangerous that will put humanity in danger.
             <br>Meanwhile Raisen advances to explore and discover what happens, she will find hostile lifeforms that will prevent her from advancing.
-            " data-img="images/team/David_Ruiz.png,images/team/David_Ruiz.png,images/team/David_Ruiz.png"
+            " data-img="images/levels/Lvl1.png, images/levels/Lvl1-1.png, images/levels/Lvl1-2.png"
                 data-color="#70ffa0">
                 <a class="scifi-nav__satellite" href="javascript:void(0)">
                     <span class="scifi-nav__label">The Warehouse<span class="scifi-nav__description">Difficulty level
@@ -192,34 +195,33 @@ The spaceship is equipped with all the necessary stuff to help Raisen to complet
                 </a>
             </li>
             <li class="scifi-nav__orbit" data-title="The Laboratory"
-                data-content="Discover the terrifying remnants of a secret alien research facility on a remote decoy planet. Once a cutting-edge laboratory studying Xenomorph biotechnologies, it has now descended into chaos. Scientists have lost control, and the lab is overrun by the very creatures they sought to understand. Navigate through dark, ruined corridors filled with deadly aliens, malfunctioning security systems, and environmental hazards. Your mission: restore power, recover critical data, disable security protocols, and find a way to escape before becoming the next victim of this nightmare. Prepare for an intense, atmospheric experience that captures the essence of the Alien franchise's horror and suspense."
-                data-img="img_se.jpg" data-color="#7cff70">
+                data-content="<br>Discover the terrifying remnants of a secret alien research facility on a remote decoy planet. Once a cutting-edge laboratory studying Xenomorph biotechnologies, it has now descended into chaos. Scientists have lost control, and the lab is overrun by the very creatures they sought to understand. Navigate through dark, ruined corridors filled with deadly aliens, malfunctioning security systems, and environmental hazards. Your mission: restore power, recover critical data, disable security protocols, and find a way to escape before becoming the next victim of this nightmare. Prepare for an intense, atmospheric experience that captures the essence of the Alien franchise's horror and suspense."
+                data-img="images/levels/Lvl2-1.png, images/levels/Lvl2-2.png, images/levels/Lvl2-3.png, images/levels/Lvl2.png" data-color="#7cff70">
                 <a class="scifi-nav__satellite" href="javascript:void(0)">
                     <span class="scifi-nav__label">The Laboratory <span class="scifi-nav__description">Difficulty level
                             2</span></span>
                 </a>
             </li>
-            <li class="scifi-nav__orbit" data-title="The Hatchery" data-content="Explore the chilling depths of the Hatchery. This level thrusts players into a meticulously engineered nightmare, where lost tunnels and brooding chambers teem with deadly xenomorphs. Battle genetically enhanced alien guardians controlled by a sinister hive mind, as you navigate through a pulsating, organic labyrinth. Survive the relentless threats and uncover the dark secrets behind this remote artificial creation. Only the most courageous will emerge victorious from this harrowing ordeal.
-                " data-img="img_ha.jpg" data-color="#b8ff70">
+            <li class="scifi-nav__orbit" data-title="The Hatchery"
+                data-content="<br>Explore the chilling depths of the Hatchery. This level thrusts players into a meticulously engineered nightmare, where lost tunnels and brooding chambers teem with deadly xenomorphs. Battle genetically enhanced alien guardians controlled by a sinister hive mind, as you navigate through a pulsating, organic labyrinth. Survive the relentless threats and uncover the dark secrets behind this remote artificial creation. Only the most courageous will emerge victorious from this harrowing ordeal."
+                data-img="images/levels/Hatchery.png,images/levels/Hatchery-1.png" data-color="#b8ff70">
                 <a class="scifi-nav__satellite" href="javascript:void(0)">
                     <span class="scifi-nav__label">The Hatchery<span class="scifi-nav__description">Difficulty level
                             3</span></span>
                 </a>
             </li>
-            <li class="scifi-nav__orbit" data-title="???" data-content=""
-                data-img="" data-color="#f3ff70">
+
+            <li class="scifi-nav__orbit" data-title="???" data-content="" data-img="" data-color="#f3ff70">
                 <a class="scifi-nav__satellite" href="javascript:void(0)">
                     <span class="scifi-nav__label">Unknown<span class="scifi-nav__description">???</span></span>
                 </a>
             </li>
-            <li class="scifi-nav__orbit" data-title="???" data-content=""
-                data-img="" data-color="#ffcf70">
+            <li class="scifi-nav__orbit" data-title="???" data-content="" data-img="" data-color="#ffcf70">
                 <a class="scifi-nav__satellite" href="javascript:void(0)">
                     <span class="scifi-nav__label">Unknown<span class="scifi-nav__description">???</span></span>
                 </a>
             </li>
-            <li class="scifi-nav__orbit" data-title="???" data-content=""
-                data-img="" data-color="#ff9470">
+            <li class="scifi-nav__orbit" data-title="???" data-content="" data-img="" data-color="#ff9470">
                 <a class="scifi-nav__satellite" href="javascript:void(0)">
                     <span class="scifi-nav__label">Unknown<span class="scifi-nav__description">???</span></span>
                 </a>
@@ -258,11 +260,6 @@ The spaceship is equipped with all the necessary stuff to help Raisen to complet
 
         document.addEventListener("DOMContentLoaded", function () {
             const satellites = document.querySelectorAll('.scifi-nav__orbit');
-            const centeredText = document.getElementById('centered-text');
-            const card = centeredText.querySelector('.card');
-            const cardTitle = card.querySelector('h2');
-            const cardContent = card.querySelector('p');
-            const imagesContainer = card.querySelector('.images-container');
 
             satellites.forEach(satellite => {
                 satellite.addEventListener('mouseenter', function () {
@@ -271,19 +268,32 @@ The spaceship is equipped with all the necessary stuff to help Raisen to complet
                     const imgs = this.dataset.img.split(',');
                     const color = this.dataset.color;
 
+                    const centeredText = document.getElementById('centered-text');
+                    const card = centeredText.querySelector('.card');
+                    const cardTitle = card.querySelector('h2');
+                    const cardContent = card.querySelector('p');
+                    const imagesContainer = card.querySelector('.images-container');
+
                     cardTitle.textContent = title;
-                    cardContent.textContent = content;
                     cardContent.innerHTML = content;
-                    imagesContainer.innerHTML = '';
+
+                    
+                    imagesContainer.innerHTML = '<div class="swiper-wrapper"></div>';
+                    const swiperWrapper = imagesContainer.querySelector('.swiper-wrapper');
 
                     imgs.forEach(img => {
-                        let imageElement = document.createElement('img');
-                        imageElement.src = img;
-                        imageElement.style.width = '200px';
-                        imageElement.style.height = 'auto';
-                        imageElement.style.marginRight = '10px';
-                        imagesContainer.appendChild(imageElement);
+                        swiperWrapper.innerHTML += `<div class="swiper-slide"><img src="${img}" style="width: 100%; height: auto;"></div>`;
                     });
+
+                    new Swiper(imagesContainer, {
+                        loop: true,
+                        autoplay: {
+                            delay: 5500,
+                            disableOnInteraction: false,
+                        },
+                        pagination: false, 
+                    });
+
 
                     card.style.borderColor = color;
                     card.style.boxShadow = "0 0 15px " + color;
@@ -296,6 +306,7 @@ The spaceship is equipped with all the necessary stuff to help Raisen to complet
                 });
             });
         });
+
 
 
     </script>

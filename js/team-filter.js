@@ -472,7 +472,7 @@ const teamMembers = [
     role: "Design Member",
     imgSrc: "images/team/Oriol Martin Corella.jpg",
     category: "design",
-    description: `In this project, I have passionately embraced the role of UI/UX Designer, focusing on creating an engaging and intuitive user interface that players find both visually appealing and easy to navigate. Additionally, I was also responsible for thoroughly documenting interface designs in the Game Design Document (GDD), ensuring that every detail was clearly communicated for implementation. Beyond UI/UX, I managed all aspects of web development and social media. I also participated in the lighting of the game scenes, contributing to the visual ambiance and gameplay experience.`,
+    description: `In this project, I have passionately embraced the role of UI/UX Designer, focusing on creating an engaging and intuitive user interface that players find both visually appealing and easy to navigate. <br><br>Additionally, I was also responsible for thoroughly documenting interface designs in the Game Design Document (GDD), ensuring that every detail was clearly communicated for implementation. <br><br>Beyond UI/UX, I managed all aspects of web development and social media. I also participated in the lighting of the game scenes, contributing to the visual ambiance and gameplay experience.`,
     tasks: `- UX/UI<br>
     - Web Development and Social Media Management<br>
     - GDD Documentation`,
