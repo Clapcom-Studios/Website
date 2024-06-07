@@ -8,6 +8,9 @@ const texts = [
 ];
 let currentTextIndex = 0;
 
+// Agrega la creación del objeto Audio
+const audio = new Audio('music/text_sound.wav'); // Cambia la URL al archivo de audio que desees utilizar
+
 function animateText(content) {
     const title = document.querySelector("h1");
     const continueButton = document.getElementById("continueButton");
@@ -25,9 +28,9 @@ function animateText(content) {
             char.textContent = value;
             char.classList.add("fade-in");
             if (isLast) {
-                
                 continueButton.style.visibility = "visible"; 
-                continueButton.style.opacity = 1;  
+                continueButton.style.opacity = 1;
+                audio.pause(); 
             }
         }, CHAR_TIME);
     }
@@ -50,6 +53,9 @@ function animateText(content) {
         setTimeout(addChar, CHAR_TIME + delay);
     }
 
+    setTimeout(function() { 
+        audio.play();
+    }, 1000); 
     requestChar(1000);
 }
 
@@ -58,10 +64,8 @@ animateText(texts[currentTextIndex]);
 
 document.getElementById("continueButton").addEventListener("click", function() {
     if (currentTextIndex >= texts.length - 1) {
-        
         window.location.href = "https://github.com/Clapcom-Studios/Alien-Extraction"; 
     } else {
-        
         currentTextIndex++;
         animateText(texts[currentTextIndex]);
         this.style.opacity = 0;  
