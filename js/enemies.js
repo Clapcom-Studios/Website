@@ -23,14 +23,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Configuración por defecto al cargar
-    const defaultModelId = 'xenomorph'; // Establece el modelo por defecto
+    
+    const defaultModelId = 'xenomorph'; 
     modelViewer.src = `enemies/${defaultModelId.charAt(0).toUpperCase() + defaultModelId.slice(1)}.glb`;
     modelViewer.onload = () => {
         setupAnimations();
         modelViewer.play();
     };
-    updateStats(defaultModelId); // Actualizar los stats por defecto
+    updateStats(defaultModelId); 
 
     function updateStats(enemyId) {
         const stats = { 
