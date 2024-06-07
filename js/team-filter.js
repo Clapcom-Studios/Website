@@ -174,19 +174,17 @@ function showPopup(member) {
   if (member.media && member.media.length > 0) {
     gallerySection.style.display = "block";
     member.media.forEach((item) => {
-      let mediaElement;
+      let mediaElement = document.createElement("div");
+      mediaElement.classList.add("media-item");
       if (item.type === 'image') {
-        mediaElement = document.createElement("div");
         mediaElement.innerHTML = `<img src="${item.src}"><p>${item.description}</p>`;
       } else if (item.type === 'video') {
-        mediaElement = document.createElement("div");
         mediaElement.innerHTML = `<iframe src="${item.src}" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>${item.description}</p>`;
       } else if (item.type === 'gif') {
-        mediaElement = document.createElement("div");
         mediaElement.innerHTML = `<img src="${item.src}"><p>${item.description}</p>`;
       }
       galleryContainer.appendChild(mediaElement);
-    });
+    });    
   } else {
     gallerySection.style.display = "none";
   }

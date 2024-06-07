@@ -553,7 +553,7 @@ body {
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
     /* Espacio entre los elementos, opcional */
 }
@@ -562,6 +562,7 @@ body {
 .gallery-container div {
     text-align: center;
     /* Centrar las descripciones debajo de las imágenes */
+    width: 40%;
 }
 
 .gallery-container img {
@@ -583,6 +584,25 @@ body {
     /* Tamaño de fuente para la descripción */
     color: #555;
     /* Color del texto de la descripción */
+}
+
+.media-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.media-item img,
+.media-item iframe {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.media-item p {
+    text-align: center;
+    margin: 0;
 }
 
 
