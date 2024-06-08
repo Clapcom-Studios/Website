@@ -17,6 +17,31 @@
         body {
             background-color: #000; 
         }
+        section {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .background-image {
+            width: 100%;
+            height: auto;
+            position: relative;
+            z-index: 1;
+        }
+        .gif-overlay {
+            position: absolute;
+            z-index: 2;
+        }
+        @media (max-width: 768px) {
+            .gif-overlay {
+                top: 50%;  /* Center vertically on smaller screens */
+                left: 50%; /* Center horizontally on smaller screens */
+                transform: translate(-50%, -50%); /* Adjust to exact center */
+                max-width: 50vw; /* Scale down the GIF size */
+            }
+        }
     </style>
 </head>
 <body class="no-trans">
@@ -177,6 +202,19 @@
             });
         });
     </script>
+    
+    <section>
+        <img class="background-image" src="images/Imatge fons.png" alt="Background Image">
+        <!-- Columna Izquierda -->
+        <img class="gif-overlay" src="images/Controls/Dash.gif" alt="" style="top: 14.5%; left: 10.6%;">
+        <img class="gif-overlay" src="images/Controls/Move.gif" alt="" style="top: 44.5%; left: 12.5%;">
+        <img class="gif-overlay" src="images/Controls/Inventory.gif" alt="" style="top: 72%; left: 11%;">
+        <!-- Columna Derecha -->
+        <img class="gif-overlay" src="images/Controls/Shot.gif" alt="" style="top: 7.5%; right: 18%;">
+        <img class="gif-overlay" src="images/Controls/Spit.gif" alt="" style="top: 33%; right: 10%;">
+        <img class="gif-overlay" src="images/Controls/Cola.gif" alt="" style="top: 73%; right: 11%;">
+    </section>
+    </section>
 
     <!-- Scripts -->
     <script src="js/loading.js"></script>
