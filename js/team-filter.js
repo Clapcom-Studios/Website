@@ -37,7 +37,8 @@ const teamMembers = [
     role: "Code Lead",
     imgSrc: "images/team/Francesc Teruel Rodríguez.jpg",
     category: "code",
-    description: `My role in this project has been organizing and supervising the code team in completing their assignments and supporting them on the developed features whenever needed. <br><br>
+    description: `Before I got involved in the development of Alien: Extraction, I was the sole developer behind Ymir Engine, the engine used to make the game. <br><br>
+    My role in this project has been organizing and supervising the code team in completing their assignments and supporting them on the developed features whenever needed. <br><br>
     I have also contributed by improving and adding useful features to the engine, such as Prefabs, and I also solved performance related issues by using Profiling Tools. <br><br>
     During the development of the project I have discovered my interest in Graphics Programming, so I have dedicated myself especially to learn more about this topic and improve the graphical capabilities of the engine.`,
     tasks: `- Ymir Engine Development <br>
@@ -61,7 +62,7 @@ const teamMembers = [
       github: "https://github.com/francesctr4",
       portfolio: "https://francesctr4.github.io/Portfolio/",
       artstation: "",
-      itchio: ""
+      itchio: "https://francesctr4.itch.io/"
     }
   },
 
