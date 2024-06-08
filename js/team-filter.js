@@ -10,14 +10,14 @@ const teamMembers = [
     Implementing the Scrum methodology, I led regular sprints and kept the team focused and adaptable. I managed risk by identifying potential issues and developing mitigation strategies, ensuring we stayed on schedule.<br><br>
     I also intervened in conflicts, mediated discussions, and negotiated solutions to maintain a productive, friendly, and calm work environment. Providing general guide document, I helped align the team with our project goals and how to work together.<br><br>
     Playtesting sessions were key, and I organized and conducted these to gather feedback and refine our game. The development of this project has helped me discover my interest for project management and team leadership, particularly in the dynamic field of game production."`,
-    tasks: `- Team & tasks organization<br>
-    - Production plan<br>
-    - Risk manager<br>
-    - Organitzation tools mantainment<br>
-    - Scrum methodology<br>
-    - Intervention, meditation and negotiation<br>
-    - General Guide<br>
-    - Playtesting sessions`,
+    tasks: `Team & tasks organization<br>
+    Production plan<br>
+    Risk manager<br>
+    Organitzation tools mantainment<br>
+    Scrum methodology<br>
+    Intervention, meditation and negotiation<br>
+    General Guide<br>
+    Playtesting sessions`,
     media: [
       { type: 'image', src: "images/projects/", description: "Description" },
     ],
@@ -41,21 +41,21 @@ const teamMembers = [
     My role in this project has been organizing and supervising the code team in completing their assignments and supporting them on the developed features whenever needed. <br><br>
     I have also contributed by improving and adding useful features to the engine, such as Prefabs, and I also solved performance related issues by using Profiling Tools. <br><br>
     During the development of the project I have discovered my interest in Graphics Programming, so I have dedicated myself especially to learn more about this topic and improve the graphical capabilities of the engine.`,
-    tasks: `- Ymir Engine Development <br>
-    - Resource Management<br>
-    - Shader Pipeline<br>
-    - Material Pipeline<br>
-    - Lighting System<br>
-    - Performance Profiling`,
+    tasks: `Ymir Engine Development <br>
+    Resource Management<br>
+    Shader Pipeline<br>
+    Material Pipeline<br>
+    Lighting System<br>
+    Performance Profiling`,
     media: [
-      { type: 'image', src: "images/projects/Code/Francesc Teruel/Lighting System 1.png", description: "Description" },
-      { type: 'image', src: "images/projects/Code/Francesc Teruel/Material Pipeline 1.png", description: "Description" },
-      { type: 'image', src: "images/projects/Code/Francesc Teruel/Lighting System 2.png", description: "Description" },
-      { type: 'image', src: "images/projects/Code/Francesc Teruel/Material Pipeline 2.png", description: "Description" },
-      { type: 'image', src: "images/projects/Code/Francesc Teruel/Lighting System 3.png", description: "Description" },
-      { type: 'image', src: "images/projects/Code/Francesc Teruel/Material Pipeline 3.png", description: "Description" },
-      { type: 'image', src: "images/projects/Code/Francesc Teruel/Shader Pipeline.png", description: "Description" },
-      { type: 'image', src: "images/projects/Code/Francesc Teruel/Resource Management.png", description: "Description" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Lighting System 1.png", description: "Lighting System" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Material Pipeline 1.png", description: "Material Pipeline" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Lighting System 2.png", description: "Lighting System" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Material Pipeline 2.png", description: "Material Pipeline" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Lighting System 3.png", description: "Lighting System" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Material Pipeline 3.png", description: "Material Pipeline" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Shader Pipeline.png", description: "Shader Pipeline" },
+      { type: 'image', src: "images/projects/Code/Francesc Teruel/Resource Management.png", description: "Resource Management" },
     ],
     social: {
       linkedin: "https://www.linkedin.com/in/francesc-teruel-rodriguez/",
@@ -70,18 +70,19 @@ const teamMembers = [
   {
     name: "Ivan Bermúdez",
     role: "Design Lead",
-    imgSrc: "images/team/Iván Bermúdez Sagra.jpg",
+    imgSrc: "images/team/Iván Bermúdez Sagra.png",
     category: "design",
-    description: "Ivan is the design lead, ensuring our games are visually stunning.",
-    tasks: `- Team & tasks organization<br>
-    - GDD organization<br>
-    - Enemies design<br>
-    - Playtesting sessions & Feedback revision<br>
-    - QA testing`,
-    media: [
-      { type: 'image', src: "images/projects/Iván Bermúdez/", description: "Description for image 1" },
-      { type: 'image', src: "images/projects/Iván Bermúdez/", description: "Description for image 2" }
-    ],
+    description: `"For this project I have assumed the role of lead designer. As such, I have been able to experience first hand what it means to work on a big project with a great team of designers. I have also realised the importance of a correct definition in every single aspect of the game. Furthermore, we have learned how fundamental it is to have good and continued communication between departments.<br><br>
+    My main responsibility was to coordinate the design department. That involved assigning tasks, ensuring that each deadline was met and keeping the Game Design Document constantly revised and corrected when necessary. <br><br>
+    One of my biggest contributions to the projects was on the design of enemies. Starting on the physical appearance and animations. Then moving on to defining their behaviour, attacks, stats, spawn and drops. <br><br>
+    Once the game was on a testing level my job was to organise playtesting sessions with external agents, processing their feedback to ensure a better gaming experience and testing on my own searching for bugs or implementations that needed corrections.<br><br>
+    This project has granted me an opportunity to take on more responsibilities than I am used to and thus, forcing me out of my comfort zone. Overall, it has been a gratifying and challenging experience that has led me to discover some strengths and weaknesses that will entail a better development as a professional."`,
+    tasks: `Team & tasks organization<br>
+    GDD organization<br>
+    Enemies design<br>
+    Playtesting sessions & Feedback revision<br>
+    QA testing`,
+    media: [],
     social: {
       linkedin: "https://www.linkedin.com/in/ivan-bermudez-sagra/",
       github: "https://github.com/IBSilver",
@@ -101,13 +102,28 @@ const teamMembers = [
     One of my key responsibilities was organizing and coordinating the team's efforts, which involved both task assignment and ensuring timely deliveries despite tight deadlines. This experience has been both challenging and incredibly rewarding.<br><br>
     My work primarily focused on modeling and texturing characters, ensuring that each one was detailed and immersive. Additionally, I handled VFX, bringing our game world to life with dynamic and engaging visual effects. Another significant part of my role involved developing the studio’s branding and designing merchandise, helping to establish a strong identity for our project.<br><br>
     I am proud of what we have achieved, especially in creating a visually stunning and cohesive game world that stays true to the Alien IP. Despite all the problems coming from the engine, our team has produced exceptional results that we can all be proud of.`,
-    tasks: `-Team & Tasks Organization<br>
-    -Constant Artsitic Support<br>
-    -Characters Modeling & Texturing<br>
-    -VFX<br>
-    -Studio Branding & Merchandising`,
+    tasks: `Team & Tasks Organization<br>
+    Constant Artsitic Support<br>
+    Characters Modeling & Texturing<br>
+    VFX<br>
+    Studio Branding & Merchandising`,
     media: [
-      { type: 'image', src: "images/projects/Art/David Ruiz/", description: "Description" },
+      { type: 'image', src: "images/projects/Art/David Ruiz/CLAPCOM_Lettering.png", description: "" },
+      { type: 'image', src: "images/projects/Art/David Ruiz/CLPACOM_Isotipo.png", description: "" },
+      { type: 'image', src: "images/projects/Art/David Ruiz/HRGIGER_SCI-FI_Concept.png", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/BOSS_Render.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/BOSS_Sculpt.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/CAIUS_Render.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/CAIUS_Sculpt.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/ISCARIOT_Render.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/ISCARIOT_Sculpt.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/RAISEN_Render.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/RAISEN_Sculpt.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_PLASMAGUN.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_SHOTGUN.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_Skills.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_SUMACHINE.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_Traps.mp4", description: "" },
     ],
     social: {
       twitter: "https://twitter.com/davidruiz",
@@ -132,8 +148,8 @@ const teamMembers = [
     category: "art",
     description: ``,
     tasks: `
-    - Environment Art<br>
-    - Props Art`,
+    Environment Art<br>
+    Props Art`,
     media: [
       { type: 'image', src: "images/projects/", description: "Description" },
     ],
@@ -151,13 +167,13 @@ const teamMembers = [
   {
     name: "Enric Arxer",
     role: "Art Member",
-    imgSrc: "images/team/Enric Arxer.jpg",
+    imgSrc: "images/team/Enric Arxer.png",
     category: "art",
     description: ``,
-    tasks: `- Enemies Concept Art<br>
-  - Prop art<br>
-  - Creture Modeling ,Texturing & Rigging<br>
-  - Charater 3D Animation `,
+    tasks: `Enemies Concept Art<br>
+    Prop art<br>
+    Creature Modeling, Texturing & Rigging<br>
+    Charater 3D Animation `,
     media: [
       { type: 'image', src: "images/projects/", description: "Description" },
     ],
@@ -178,10 +194,10 @@ const teamMembers = [
     imgSrc: "images/team/Pau_Garriga_Brotons.png",
     category: "art",
     description: `"In this project I have been a 3D artist, mainly in charge of world. I have made different models for most of the maps you see. From traps to walls, I have used my knowledge to be of help.<br><br>
-  Throughout our journey I have learned a lot about teamwork and adapting to the needs of each task.<br><br>
-  I have also experienced being in charge of a group of many people, how chaotic it can be and the responsibility that comes with it."`,
-    tasks: `- Environment Art<br>
-  - Prop Art`,
+    Throughout our journey I have learned a lot about teamwork and adapting to the needs of each task.<br><br>
+    I have also experienced being in charge of a group of many people, how chaotic it can be and the responsibility that comes with it."`,
+    tasks: ` Environment Art<br>
+  Prop Art`,
     media: [
       { type: 'image', src: "images/projects/Art/Pau Garriga/Base-2_16x9.png", description: "Description" },
       { type: 'image', src: "images/projects/Art/Pau Garriga/BaseeChest_16x9.png", description: "Description" },
@@ -209,10 +225,10 @@ const teamMembers = [
     description: `I have taken on the role of 3D Artist with excitement, focusing on environments and partially on props as well. I have thoroughly studied the aesthetics of the Alien franchise and fallen in love with H.R. Giger's biomechanic style, from which I have generated most of the assets.<br><br>
     I have also assisted my colleagues by teaching masterclasses, generating guides, providing technical and artistic support, and always giving feedback.<br><br>
     The project has taught me how important communication and team morale are. In addition, I have learned to study in depth the aesthetics, intention, and details to subsequently generate quality and high-fidelity assets.`,
-    tasks: `- Environment Art<br>
-    - Prop Art<br>
-    - Reference & aesthetics study<br>
-    - Technical and artsitic support`,
+    tasks: `Environment Art<br>
+    Prop Art<br>
+    Reference & aesthetics study<br>
+    Technical and artsitic support`,
     media: [
       { type: 'image', src: "images/projects/Art/Arnau González/alien_head_low_substance_render.jpg", description: "Description" },
       { type: 'image', src: "images/projects/Art/Arnau González/fleshDoor2.png", description: "Description" },
@@ -223,6 +239,7 @@ const teamMembers = [
       { type: 'image', src: "images/projects/Art/Arnau González/warehouse_concept_render.png", description: "Description" },
       { type: 'image', src: "images/projects/Art/Arnau González/workbench_base.png", description: "Description" },
       { type: 'image', src: "images/projects/Art/Arnau González/workbench.png", description: "Description" },
+      { type: 'gif', src: "images/projects/Art/Arnau González/alienHead_animation.gif", description: "Description" },
     ],
     social: {
       twitter: "",
@@ -230,7 +247,7 @@ const teamMembers = [
       github: "https://github.com/arinWald",
       portfolio: "",
       artstation: "https://www.artstation.com/arinwald",
-      itchio: ""
+      itchio: "https://arinwald.itch.io/"
     }
   },
 
@@ -240,8 +257,9 @@ const teamMembers = [
     role: "Art Member",
     imgSrc: "images/team/JoelMaldonado.jpg",
     category: "art",
-    description: ``,
-    tasks: `- HUD & User Interface`,
+    description: `"In this project I have adopted the role as the main UI artist, being in charge of creating practically all the screens with the game interface, loading screens and menus and animating them as well as creating the icons of items, weapons, buttons and giving them all the retrofuturistic aesthetics that characterizes the Alien saga.<br><br>
+Thanks to the continued use of video and image editing tools during the duration of the project I can say that I have learned to use with more fluency such tools like Photoshop or After Effects. In addition to understanding the importance of communication in large teams.`,
+    tasks: `HUD & User Interface`,
     media: [
       { type: 'image', src: "images/projects/", description: "Description" },
     ],
@@ -263,10 +281,10 @@ const teamMembers = [
     category: "art",
     description: `I have been mostly in charge of the conceptualization and creation of creatures; my main contributions have been the modeling, texturing, and rigging of both the normal Xenomorph and the Spitter, as well as props such as the alien eggs and other organic structures with the biomechanical aesthetics of H. R. Giger, not to mention some contributions to the UI and the creation of the game logo and T-shirts.<br><br>
     In this project, I have honed my teamwork skills and been able to discover what could be my future vocation: the conceptualization of enemies and the modeling of organic creatures for video games.`,
-    tasks: `- Creature Concept Art<br>
-    - Enemy modeling, texturing and rigging (Xenomorph, Spitter)<br>
-    - Prop Art (organic)<br>
-    - Game Icon ^^`,
+    tasks: `Creature Concept Art<br>
+    Enemy modeling, texturing and rigging (Xenomorph, Spitter)<br>
+    Prop Art (organic)<br>
+    Game Icon ^^`,
     media: [
       { type: 'image', src: "images/projects/", description: "Description" },
     ],
@@ -290,9 +308,9 @@ const teamMembers = [
     After that I was part of the UI team designing its style until we reached the desired one. I was also in charge of making the HUD and inventory along with the animations.<br><br>
     Lastly, I worked on the enemy rigging and animation, more specifically the Xenomorph and the Xenomorph Queen (Boss).<br><br>
     This project has allowed me to expand my skills by having worked in such different sections and also helped me discovering my interest for UI. I have also learned about the importance of good communication and organization that is necessary for this process.`,
-    tasks: `- Weapons Concept Art<br>
-    - HUD & User Interface<br>
-    - Enemy animations (Xenomorph, Queen)`,
+    tasks: `Weapons Concept Art<br>
+    HUD & User Interface<br>
+    Enemy animations (Xenomorph, Queen)`,
     media: [
       { type: 'gif', src: "images/projects/Art/Dani Mariages/Boss_acid_spit.gif", description: "Description" },
       { type: 'gif', src: "images/projects/Art/Dani Mariages/Boss_Claw (1).gif", description: "Description" },
@@ -321,10 +339,10 @@ const teamMembers = [
     description: `At the beginning of this project, I was in charge of the conceptualization of the protagonist and NPCs. Afterwards, my main role became rigging and animating these characters.<br><br>
     In addition, I also made contributions to the general UI and was in charge of drawing the different cinematics of our game. <br><br>
     The development of this project has helped me discover my interest for concept art and animation, which are skills I hope to continue improving`,
-    tasks: `-Character concept art <br>
-    -Character texturing<br>
-    -Character animations<br>
-    -Cutscene images`,
+    tasks: `Character concept art <br>
+    Character texturing<br>
+    Character animations<br>
+    Cutscene images`,
     media: [
       { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/CaiusClean.gif", description: "Description" },
       { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/CaiusIdle.gif", description: "Description" },
@@ -372,8 +390,8 @@ const teamMembers = [
     imgSrc: "images/team/Adrian Ramirez.jpg",
     category: "art",
     description: `As a Prop and Environment Artist specializing in non-organic props, I contributed to various aspects of the project, including the creation of floors, walls, exterior environments, and lab and warehouse props. My role involved improving modeling and texturing techniques to ensure high-quality assets. Throughout the project, I gained valuable experience on mentioned techniques, as well as working within a large team, learning to navigate challenges and collaborate effectively to achieve our objectives.`,
-    tasks: `- Enviroment Art.<br>
-    - Prop Art.`,
+    tasks: `Enviroment Art.<br>
+    Prop Art.`,
     media: [
       { type: 'image', src: "", description: "Description" },
     ],
@@ -396,9 +414,9 @@ const teamMembers = [
     description: `At the beginning of this project, I started as an environment artist, creating various props for different levels, such as a box, a door, floors, and other non-organic items. After contributing to the world team by helping with these props, I began the major part of my work on this project, which was modeling and texturing all the weapons for the game. This task was a journey I enjoyed a lot because it helped me sharpen my skills in modeling and texturing.<br><br>
     After finishing this project, I can say I learned many things, such as the importance of communication and maintaining good relationships with team members. This project also allowed me to learn Blender, a magnificent program that greatly assisted me in creating the weapons.<br><br>
     In conclusion, I am very proud of the whole team. Despite the challenges we faced during the project, we overcame them and finished with a high-quality game.`,
-    tasks: `- Enviroment Art.<br>
-    - Prop Art.<br>
-    - Weapons Art.`,
+    tasks: `Enviroment Art.<br>
+    Prop Art.<br>
+    Weapons Art.`,
     media: [
       { type: 'image', src: "", description: "Description" },
     ],
@@ -420,8 +438,8 @@ const teamMembers = [
     category: "art",
     description: `I have been a 3D enviroment artist in this project, where I made all types of props, specializing in the non organics ones. Some of the props that I made are: Floors, doors, pipes, office objects and decals. <br><br>
     I was the leader of my Scrum Group multiples time, and I learned how to lead a team to acomplish the times and objectives. Also, I have improved my techinques of moddeling in Maya and texturize in Substance.`,
-    tasks: `- Enviroment Art.<br>
-    - Prop Art.`,
+    tasks: `Enviroment Art<br>
+    Prop Art`,
     media: [
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_2.png", description: "Description" },
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_2.png", description: "Description" },
@@ -454,8 +472,8 @@ const teamMembers = [
     Later on, I was in charge of preparing the structure of the design document and filling in information such as graphics (game flow, gameloop etc), and gameplay aspects adapted to the constraints of the project, writing all of these into a GDD for the different departments to have the relevant information handy.
     Thanks to the research done previously, I was able to create a narrative in an interesting setting and characters that does not break with the original lore of the saga, and manages to expand with new concepts.<br><br>
     This project has allowed me to work closely with different departments, showing me how to better communicate an idea or concept to a large group of people.`,
-    tasks: `- GDD<br>
-    - Narrative`,
+    tasks: `GDD<br>
+    Narrative`,
     media: [],
     social: {
       twitter: "",
@@ -474,9 +492,9 @@ const teamMembers = [
     imgSrc: "images/team/Oriol Martin Corella.jpg",
     category: "design",
     description: `In this project, I have passionately embraced the role of UI/UX Designer, focusing on creating an engaging and intuitive user interface that players find both visually appealing and easy to navigate. <br><br>Additionally, I was also responsible for thoroughly documenting interface designs in the Game Design Document (GDD), ensuring that every detail was clearly communicated for implementation. <br><br>Beyond UI/UX, I managed all aspects of web development and social media. I also participated in the lighting of the game scenes, contributing to the visual ambiance and gameplay experience.`,
-    tasks: `- UX/UI<br>
-    - Web Development and Social Media Management<br>
-    - GDD Documentation`,
+    tasks: `UX/UI<br>
+    Web Development and Social Media Management<br>
+    GDD Documentation`,
     media: [],
     social: {
       twitter: "",
@@ -496,8 +514,8 @@ const teamMembers = [
     category: "design",
     description: `In this project i worked as a designer, being the level designer of the base and one of the levels of our game. Later i participated in the creation of the VFX, more specificly creating the particles.<br><br>
     This project showed me how to work with a large team, how important comunication is and the effect VFX have on the player.`,
-    tasks: `- Level Design <br>
-    - Particles`,
+    tasks: `Level Design <br>
+    Particles`,
     media: [],
     social: {
       twitter: "",
@@ -519,10 +537,10 @@ const teamMembers = [
     Later in the project, I focused on creating wireframes for the UI, which the incredible Art and Code team brought to life. Moreover, I learned to have effective cross-departmental communication, understand project limitations, and embrace diverse ideas from all departments.<br><br>
     Additionally, I did some playtesting to gather crucial feedback and communicated it to the team in order to make our game what it should be: fun.<br><br>
     This project was such a challenge, and I am so proud of the team and the outcome of the videogame.`,
-    tasks: `-Gameplay Design <br>
-    -Items and Inventory <br>
-    -UX/UI <br>
-    -QA`,
+    tasks: `Gameplay Design <br>
+    Items and Inventory <br>
+    UX/UI <br>
+    QA`,
     media: [],
     social: {
       twitter: "",
@@ -542,9 +560,9 @@ const teamMembers = [
     category: "design",
     description: `In this project I worked as a game designer, first working on the design of the Main Characther Raisen, which includes her physical description with moodboards and references and her personality with description on her way of moving and interacting with others. I also designed her mechanichs like her 3 skills and the stats of all her weapons using spreadsheets.<br><br>
     Later on the project I helped the code deparment implementing a Particle System and implementing some of the particles of the weapons.`,
-    tasks: `-Gameplay Design.<br>
-    -Stats balancing<br>
-    -Particles Programmer`,
+    tasks: `Gameplay Design.<br>
+    Stats balancing<br>
+    Particles Programmer`,
     media: [],
     social: {
       twitter: "",
@@ -564,9 +582,9 @@ const teamMembers = [
     category: "design",
     description: `In this project, I have employed a variety of techniques and tools to contribute significantly to the Design Department. Additionally, I have extended my assistance to several tasks beyond my primary role. Specifically, I have worked on audio and music aspects, including Sound Effects (SFX) and Soundtracks, utilizing the Wwise software.<br><br>
     Furthermore, I have contributed to the development of the game and company logos, as well as the creation of weapon artwork. These efforts have collectively enhanced the overall quality and cohesiveness of our design outputs.`,
-    tasks: `- Gameplay Design<br>
-    - Weapons Design<br>
-    - Audio Design`,
+    tasks: `Gameplay Design<br>
+    Weapons Design<br>
+    Audio Design`,
     media: [],
     social: {
       twitter: "",
@@ -586,9 +604,9 @@ const teamMembers = [
     category: "design",
     description: `In this project I have taken the role of designer, starting by designing and perfecting two of the three main levels of our game, as well as dedicating myself to audio (SFX and Music) as my main job. I have also been in charge of the lighting design and placement.<br><br>
     After working on such a large team project I have been able to understand the importance of the communication and organization behind it, first hand. Now I feel more than prepared for the industry and the professional world.`,
-    tasks: `- Level Design<br>
-    - Audio Design & Implementation<br>
-    - Lightning Design`,
+    tasks: `Level Design<br>
+    Audio Design & Implementation<br>
+    Lightning Design`,
     media: [],
     social: {
       twitter: "",
@@ -606,7 +624,7 @@ const teamMembers = [
   {
     name: "Xiao Shan Costajussà",
     role: "Code Member",
-    imgSrc: "images/team/",
+    imgSrc: "images/team/Xiao Shan Costajussa.jpg",
     category: "code",
     description: ``,
     tasks: ``,
@@ -629,11 +647,11 @@ const teamMembers = [
     category: "code",
     description: `During this project, I started with the implementation of Raycast, an essential tool for collision detection. Then, I performed QA of the engine and the scripting module, followed by the development of an electric trap and chest animation. I also worked on the particle effects of the electric trap and fixed some bugs. Finally, I performed QA of the base level.<br><br>
     This project has taught me the importance of teamwork and effective communication. It has been a difficult job, but very valuable for my professional development.`,
-    tasks: `- Electric traps and their particles<br>
-    - Base level QA & polish<br>
-    - Chest animation<br>
-    - Raycast implementation<br>
-    - Bug fixing & QA`,
+    tasks: `Electric traps and their particles<br>
+    Base level QA & polish<br>
+    Chest animation<br>
+    Raycast implementation<br>
+    Bug fixing & QA`,
     media: [],
     social: {
       twitter: "",
@@ -654,11 +672,11 @@ const teamMembers = [
     description: `In this project, I have been responsible for programming. <br><br>
     First, in the making of the engine I implemented the physics system and modified it to fit the necessities of the project. <br><br>
     Then, I have been in charge of the first level scene,implementing all elements, including the tutorial, and making sure everything is alright.`,
-    tasks: `- Physics Engine Implementation<br>
-    - Tutorial implementation<br>
-    - Lvl 1 assets and scripts implementation<br>
-    - Lvl 1 QA and polish<br>
-    - Bug fixing`,
+    tasks: `Physics Engine Implementation<br>
+    Tutorial implementation<br>
+    Lvl 1 assets and scripts implementation<br>
+    Lvl 1 QA and polish<br>
+    Bug fixing`,
     media: [],
     social: {
       twitter: "",
@@ -679,11 +697,11 @@ const teamMembers = [
     description: `During this project I have been in charge of the role of programmer.<br><br>
     At the beginning I did the implementation of the Audio module in the game engine.<br><br>
     Later, I became gameplay programmer, creating a first iteration of the weapon system. And finally, I made all the player's skills and interactions, apart from fixing bugs and doing QA.`,
-    tasks: `- Audio module implementation<br>
-    - Player structure programming<br>
-    - First weapon implementation<br>
-    - Player skills programming<br>
-    - Fix a lot of player bugs`,
+    tasks: `Audio module implementation<br>
+    Player structure programming<br>
+    First weapon implementation<br>
+    Player skills programming<br>
+    Fix a lot of player bugs`,
     media: [],
     social: {
       twitter: "",
@@ -703,13 +721,13 @@ const teamMembers = [
     category: "code",
     description: `At the start of the project, my primary responsibility was integrating the scripting system into the Ymir Engine. In addition, I handled the implementation of assets and scripting for Level 2 Part 1, ensuring seamless functionality through rigorous quality assurance (QA) and final polishing. I also played a key role in bug fixing to ensure the best possible user experience.<br><br>
     For the game's narrative elements, I focused on the design and implementation of loot chests, doors, the dialogue system, and other essential story components. Additionally, I enhanced the quality of life when working with the Ymir Engine, improving the efficiency and usability of the tools.`,
-    tasks: `- Scripting system integration in Ymir Engine<br>
-    - Lvl 2 Part 1 assets & scripting implementation<br>
-    - Lvl 2 Part 1 QA and Polish<br>
-    - Bug fixing<br>
-    - Loot chest, doors, dialogue system and narrative elements<br>
-    - QoL working with Ymir Engine<br>
-    - Enemy health bar`,
+    tasks: `Scripting system integration in Ymir Engine<br>
+    Lvl 2 Part 1 assets & scripting implementation<br>
+    Lvl 2 Part 1 QA and Polish<br>
+    Bug fixing<br>
+    Loot chest, doors, dialogue system and narrative elements<br>
+    QoL working with Ymir Engine<br>
+    Enemy health bar`,
     media: [],
     social: {
       twitter: "",
@@ -730,20 +748,20 @@ const teamMembers = [
     description: `Throughout this project, I've contributed to the development of various engine features as well as the implementation of the UI module with all the necessary elements and funcionalities to link it with scripts. Additionally, I've taken charge of some menu implementations, designing and implementing a system to manage the player's items and a save and load system for the game.<br><br>
     Alongside these responsibilities, I've been dedicated to resolving any bugs or glitches encountered, ensuring the functionality of the game in general.<br><br>
     Working alongside a diverse group of teammates, I've learned the importance of patience, flexibility, and open communication. This experience has enhanced both my interpersonal skills in conflict resolution and my teamwork capabilities in order to achieve shared goals.`,
-    tasks: `- Ymir Engine Development Support<br>
-    - Ymir Engine Theme<br>
-    - UI Engine Implementation<br>
-    - Game Menus<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;- Main menu<br> 
-    &nbsp;&nbsp;&nbsp;&nbsp;- HUD<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;- Death menu<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;- Loading scene<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;- Level Selector<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;- Pause<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;- Support in other menus<br>
-    - Game Save&Load<br>
-    - Items system<br>
-    - Bug fixing`,
+    tasks: `Ymir Engine Development Support<br>
+    Ymir Engine Theme<br>
+    UI Engine Implementation<br>
+    Game Menus<br>
+    Main menu<br> 
+    HUD<br>
+    Death menu<br>
+    Loading scene<br>
+    Level Selector<br>
+    Pause<br>
+    Support in other menus<br>
+    Game Save&Load<br>
+    Items system<br>
+    Bug fixing`,
     media: [],
     social: {
       twitter: "",
@@ -759,16 +777,16 @@ const teamMembers = [
   {
     name: "Ignacio Moreno",
     role: "Code Member",
-    imgSrc: "images/team/",
+    imgSrc: "images/team/Nacho Moreno.jpg",
     category: "code",
     description: `In this project, i have taken the role of programmer. At the beginning, I was in charge of implementing the animations module, making possible to import our animations to the engine and creating a file containing the imported animation. <br><br>
     I have also contributed to create the pathfinding module and navmesh, in order to make the enemies movement possible. Then, i helped with the behavior of the enemies and implemented the item drop when an enemy dies. Finally, i was in charge of fix memory issues of the engine when the scene different scenes were cleared. <br><br>
     Being part of this project taught me how to work with such a big team and helped me to develop organizational and communication skills. `,
-    tasks: `- Animation module implementation of Ymir Engine<br>
-    - Pathfinding and navmesh module implementation of Ymir Engine<br>
-    - Enemies item drop<br>
-    - Fix memory issues<br>
-    - Bug fixing`,
+    tasks: `Animation module implementation of Ymir Engine<br>
+    Pathfinding and navmesh module implementation of Ymir Engine<br>
+    Enemies item drop<br>
+    Fix memory issues<br>
+    Bug fixing`,
     media: [],
     social: {
       twitter: "",
@@ -784,10 +802,21 @@ const teamMembers = [
   {
     name: "Antonio Romanos",
     role: "Code Member",
-    imgSrc: "images/team/",
+    imgSrc: "images/team/ToniRomanos.jpg",
     category: "code",
-    description: ``,
-    tasks: ``,
+    description: `In Alien: Extraction my main role has been as a programmer.<br><br>
+    I started taking care of some aspects of the main character, like the shooting and some skills, that little by little have been improved to leave the functionalities much more polished, but the section to which I dedicated more time was the Particles module.<br><br>
+    This module was implemented entirely by me, and then I worked with my colleagues to improve its functionality and performance. Because of this, I have been in charge of implementing most of the visual effects of the game, taking the VFX of the colleagues of the Art department and adapting them to our engine.<br><br>
+    Finally, I have designed and developed the ‘About Us’ section of the website, being in charge of adding all the colleagues with their respective descriptions, tasks and images to the section.<br><br>
+    In this project I have learned a lot of skills as a programmer, highlighting all the knowledge acquired about particle systems, the operation of a graphics engine and web development. Undoubtedly, this experience has been enriching and I am very grateful to have been part of it.`,
+    tasks: `First Version of the Shoot<br>
+    Particle Module Implementation<br>
+    Particle Scripting<br>
+    First Version of the Acidic Spit Skill<br>
+    Player VFX <br>
+    Weapons VFX <br>
+    Enemies VFX <br>
+    "About Us" website section`,
     media: [],
     social: {
       twitter: "",
@@ -808,10 +837,10 @@ const teamMembers = [
     description: `At the start of this project I worked on the Skeletal Animation Module, defining its structure and mainly focusing on the appropiate exportation of 3D models, and its Animation Blending feature.<br><br>
     Once the Animations module was finished, I moved to scripting everything Weapon related and helping with the Player. <br><br>
     This project has helped me understand the struggles of working with a big team, and how important it is to keep an effective channel of comunication between your collegues.`,
-    tasks: `- Skeletal Animation Engine Module<br>
-    - Scripting Skeletal Animation<br>
-    - Player Weapons<br>
-    - Player Bug Fixing`,
+    tasks: `Skeletal Animation Engine Module<br>
+    Scripting Skeletal Animation<br>
+    Player Weapons<br>
+    Player Bug Fixing`,
     media: [],
     social: {
       twitter: "",
@@ -832,13 +861,13 @@ const teamMembers = [
     description: `As a programmer, I frequently worked in the development and maintenance of scripting systems, taking on the responsibility of designing and optimizing various functions within these systems.<br><br>
     Throughout my experience, I have worked on complex tasks that required close collaboration with other developers and multidisciplinary. <br><br>
     During this long-term project, I have learned that working in large groups can be a significant challenge due to the need to coordinate multiple tasks and ensure that all team members are aligned on objectives and deadlines. This experience has taught me the crucial importance of effective communication.`,
-    tasks: `- Scripting system integration in Ymir Engine<br>
-    - Collisions system detector in scripting<br>
-    - Lvl 2 Part 2 scripting implementation<br>
-    - Tag implementation<br>
-    - Dialogue system<br>
-    - Cutscenes Implementation<br>
-    - Bug Fixing`,
+    tasks: `Scripting system integration in Ymir Engine<br>
+    Collisions system detector in scripting<br>
+    Lvl 2 Part 2 scripting implementation<br>
+    Tag implementation<br>
+    Dialogue system<br>
+    Cutscenes Implementation<br>
+    Bug Fixing`,
     media: [],
     social: {
       twitter: "",
@@ -861,12 +890,12 @@ const teamMembers = [
     After working on the engine, I have been in charge of ""Level 1: Warehouse"" where, alongside with my partner Lluc,  I implemented every feature and supervised its integrity, making sure everything was allright.<br><br>
     Working on this project with so many people and departments was a very challenging experience. Nonetheless, it helped me upgrade my programming, organization and communication skills. I am very proud of
     our work.`,
-    tasks: `- Physics Engine Implementation<br>
-    - Physics Component implementation<br>
-    - Tutorial implementation<br>
-    - Lvl 1 assets and scripts implementation<br>
-    - Lvl 1 & Physics QA and polish<br>
-    - Bug fixing`,
+    tasks: `Physics Engine Implementation<br>
+    Physics Component implementation<br>
+    Tutorial implementation<br>
+    Lvl 1 assets and scripts implementation<br>
+    Lvl 1 & Physics QA and polish<br>
+    Bug fixing`,
     media: [],
     social: {
       twitter: "",
@@ -885,8 +914,8 @@ const teamMembers = [
     imgSrc: "images/team/Maksym_Polupan.jpg",
     category: "code",
     description: `During the making of this project, I have participated in implementing the animations into the engine (mainly UI) for the first weeks. Then I dedicated all of my work into the enemies logic up until the very end.`,
-    tasks: `- Engine animations implementation <br>
-    - Enemies Logic`,
+    tasks: `Engine animations implementation <br>
+    Enemies Logic`,
     media: [],
     social: {
       twitter: "",
@@ -907,13 +936,13 @@ const teamMembers = [
     description: `At the beginning of the project, I was tasked to fix some features of the engine: the component transform of all game objects and its gizmo, mousepicking, and game object reparenting. I was also in charge of part of the implementation of the UI module in the engine, focusing on the render of all these elements, their transform component, the logic of the UI states and the navigation with both keyboard and gamepad. <br><br>
     When it comes to the game itself, I dedicated myself to bring to life some of the most important UI menus, with the game systems associated with them. These menus are the crafting station, the upgrade station, the inventory, and the stash. With these tasks, there was a lot of bug fixing involved, to make sure that the game feel of the UI was the best possible.<br><br>
     Working on this project has taught me how to work with a team with so many members, developing both key communication and organizational skills. `,
-    tasks: `- Minor Ymir Engine fixes<br>
-    - UI engine implementation<br>
-    - Crafting system and menu<br>
-    - Inventory menu and items<br>
-    - Upgrade system and menu<br>
-    - Stash menu<br>
-    - Bug fixing`,
+    tasks: `Minor Ymir Engine fixes<br>
+    UI engine implementation<br>
+    Crafting system and menu<br>
+    Inventory menu and items<br>
+    Upgrade system and menu<br>
+    Stash menu<br>
+    Bug fixing`,
     media: [
       { type: 'mp4', src: "images/projects/Code/Andreu Nosàs/CraftingStation.mp4", description: "Description" },
       { type: 'mp4', src: "images/projects/Code/Andreu Nosàs/InventoryMenu.mp4", description: "Description" },
@@ -980,7 +1009,17 @@ function filterSelection(c) {
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    if (c == "producer") {
+      // Mostrar solo los leads
+      if (x[i].className.indexOf("lead") > -1) {
+        w3AddClass(x[i], "show");
+      }
+    } else {
+      // Mostrar las categorías normales
+      if (x[i].className.indexOf(c) > -1) {
+        w3AddClass(x[i], "show");
+      }
+    }
   }
 }
 
@@ -1016,6 +1055,7 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
 
 function showPopup(member) {
   document.getElementById("popup-name").innerText = member.name;

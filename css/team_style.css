@@ -101,7 +101,7 @@
 }
 
 .our-team .title {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
     color: rgb(122, 98, 81);
@@ -389,6 +389,7 @@ body {
     margin-top: 2%;
     margin-bottom: 2%;
     flex-wrap: wrap;
+    justify-content: center;
     /* Permite que los elementos se envuelvan en varias líneas */
 }
 
@@ -551,8 +552,39 @@ body {
     text-transform: uppercase;
     margin: 0;
     animation: fadeInElements 1.1s ease forwards;
+    text-align: center;
+    line-height: 40px;
 
 }
+
+#popup-tasks {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; /* Añade algo de margen arriba y abajo y centra el texto */
+    max-width: 85%; /* Limita el ancho del texto */
+    padding: 0 30px; /* Añade padding a los lados del texto */
+}
+
+#popup-tasks::before,
+#popup-tasks::after {
+    content: '';
+    flex-grow: 1;
+    width: 300px;
+    height: 2px; /* Grosor de las líneas */
+    background-color: green; /* Color de las líneas */
+}
+
+#popup-tasks::before {
+    margin-right: 15px; /* Espacio entre la línea y el texto */
+}
+
+#popup-tasks::after {
+    margin-left: 15px; /* Espacio entre la línea y el texto */
+}
+
+
 
 /* Estilo para el contenedor de la galería */
 .gallery-container {
