@@ -34,9 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateStats(enemyId) {
         const stats = { 
-            'facehugger': [25, 8.3, 8.3, 8.3],
-            'xenomorph': [16.6, 16.6, 16.6, 16.6],
-            'spitter': [8.3, 25, 25, 25],
+            'facehugger': [23, 6, 11, 5],
+            'xenomorph': [17, 13, 19, 10],
+            'spitter': [14, 18, 23, 25],
         }[enemyId];
         updateEnemyStats(enemyId.charAt(0).toUpperCase() + enemyId.slice(1), ...stats);
     }
