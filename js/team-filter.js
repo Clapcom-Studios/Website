@@ -498,7 +498,7 @@ const teamMembers = [
     Prop Art`,
     media: [
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_2.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_2.png", description: "Description" },
+      { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_3.png", description: "Description" },
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_4.png", description: "Description" },
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_5.png", description: "Description" },
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_6.png", description: "Description" },
