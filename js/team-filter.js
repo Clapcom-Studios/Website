@@ -108,22 +108,23 @@ const teamMembers = [
     VFX<br>
     Studio Branding & Merchandising`,
     media: [
-      { type: 'image', src: "images/projects/Art/David Ruiz/CLAPCOM_Lettering.png", description: "" },
-      { type: 'image', src: "images/projects/Art/David Ruiz/CLPACOM_Isotipo.png", description: "" },
-      { type: 'image', src: "images/projects/Art/David Ruiz/HRGIGER_SCI-FI_Concept.png", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/BOSS_Render.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/BOSS_Sculpt.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/CAIUS_Render.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/CAIUS_Sculpt.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/ISCARIOT_Render.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/ISCARIOT_Sculpt.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/RAISEN_Render.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/RAISEN_Sculpt.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_PLASMAGUN.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_SHOTGUN.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_Skills.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_SUMACHINE.mp4", description: "" },
-      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_Traps.mp4", description: "" },
+      { type: 'image', src: "images/projects/Art/David Ruiz/CLAPCOM_Lettering.png", description: " Lettering Logo " },
+      { type: 'image', src: "images/projects/Art/David Ruiz/CLPACOM_Isotipo.png", description: " Isotyped Logo " },
+	  { type: 'image', src: "images/projects/Art/David Ruiz/MOCKUP_CAMISETA_CLAPCOM.png", description: " Final studio uniform " },	  
+      { type: 'image', src: "images/projects/Art/David Ruiz/HRGIGER_SCI-FI_Concept.png", description: " Environment Concept Art " },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/RAISEN_Sculpt.mp4", description: " Raisen Highpoly Sculpt " },   
+	  { type: 'mp4', src: "images/projects/Art/David Ruiz/BOSS_Sculpt.mp4", description: "Queen Xenomorph Highpoly Sculpt" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/CAIUS_Sculpt.mp4", description: "Caius Highpoly Sculpt" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/ISCARIOT_Sculpt.mp4", description: "Iscariot Highpoly Sculpt" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/RAISEN_Render.mp4", description: "Raisen Retopology, Bake & Textures" },	  
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/BOSS_Render.mp4", description: "Queen Xenomorph Retopology, Bake & Textures" },  
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/CAIUS_Render.mp4", description: "Caius Retopology, Bake & Textures" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/ISCARIOT_Render.mp4", description: "Iscariot Retopology, Bake & Textures" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_PLASMAGUN.mp4", description: "Plasma cannon VFX Concepts" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_SHOTGUN.mp4", description: "Shotgun VFX Concepts" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_SUMACHINE.mp4", description: "Submachine VFX Concepts" },
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_Skills.mp4", description: "Raisen VFX Concepts" },	  
+      { type: 'mp4', src: "images/projects/Art/David Ruiz/VFX_Traps.mp4", description: "Electric Traps VFX Concepts" },
     ],
     social: {
       twitter: "https://twitter.com/davidruiz",
@@ -131,7 +132,7 @@ const teamMembers = [
       github: "https://github.com/xdavido",
       portfolio: "",
       artstation: "https://luengox.artstation.com",
-      itchio: ""
+      itchio: "https://xdavido.itch.io/"
     }
   },
 
@@ -1095,8 +1096,8 @@ function showPopup(member) {
       } else if (item.type === 'gif') {
         mediaElement.innerHTML = `<img src="${item.src}"><p>${item.description}</p>`;
       } else if (item.type === 'mp4') {
-        mediaElement.innerHTML = `<video width="560" height="315" controls loop><source src="${item.src}" type="video/mp4">Your browser does not support the video tag.</video><p>${item.description}</p>`;
-      }
+        mediaElement.innerHTML = `<video width="560" height="315" controls loop autoplay muted><source src="${item.src}" type="video/mp4">Your browser does not support the video tag.</video><p>${item.description}</p>`;
+	  }
       galleryContainer.appendChild(mediaElement);
     });
   } else {
