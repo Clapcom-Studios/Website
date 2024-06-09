@@ -562,9 +562,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px auto; /* Añade algo de margen arriba y abajo y centra el texto */
-    max-width: 85%; /* Limita el ancho del texto */
-    padding: 0 30px; /* Añade padding a los lados del texto */
+    margin: 20px auto;
+    max-width: 100%;
+    padding: 0 30px;
 }
 
 #popup-tasks::before,
@@ -572,16 +572,16 @@ body {
     content: '';
     flex-grow: 1;
     width: 300px;
-    height: 2px; /* Grosor de las líneas */
-    background-color: green; /* Color de las líneas */
+    height: 3px;
+    background-color: green;
 }
 
 #popup-tasks::before {
-    margin-right: 15px; /* Espacio entre la línea y el texto */
+    margin-right: 15px;
 }
 
 #popup-tasks::after {
-    margin-left: 15px; /* Espacio entre la línea y el texto */
+    margin-left: 15px;
 }
 
 
