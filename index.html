@@ -19,7 +19,30 @@
 	<link href="css/animations.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	
-	
+	<style>
+        .social-footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #333; /* Color de fondo */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .social-icons {
+            list-style: none;
+            padding: 0;
+        }
+        .social-icons li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 24px; /* Ajusta el tamaño de los íconos según necesites */
+        }
+    </style>
 
 </head>
 
@@ -87,21 +110,28 @@
             Tu navegador no soporta la etiqueta de video.
         </video>
         <div class="banner-caption">
-            <div style="margin-top: 0px; opacity: 1;" data-animation-effect="fadeIn">
-                <h1>Alien: Extraction</h1>
-                <h3 class="padding-top30">Dare to extract, brave to survive</h3>
-                <div class="padding-top60 contact-form">
-                    <button class="btn cta-button"><a style="color: white;"
-                            href="https://github.com/Clapcom-Studios/Alien-Extraction">Download</a></button>
-                </div>
+            <h1>Alien: Extraction</h1>
+            <h3 class="padding-top30">Dare to extract, brave to survive</h3>
+            <div class="padding-top60 contact-form">
+                <button class="btn cta-button"><a style="color: white;" href="https://github.com/Clapcom-Studios/Alien-Extraction">Download</a></button>
             </div>
         </div>
+        <!-- Social Media Icons -->
+        <div class="social-icons-banner">
+            <a href="https://github.com/Clapcom-Studios" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/AlienExtraction" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@Clapcom_Studios" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
     </div>
+    
 
     <audio id="buttonSound" style="display:none;">
         <source src="music/basic_ui.wav" type="audio/wav">
         Your browser does not support the audio element.
     </audio>
+
+
+    
     
     <script>
         document.addEventListener("DOMContentLoaded", function() {
