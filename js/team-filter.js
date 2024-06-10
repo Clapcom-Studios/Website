@@ -932,11 +932,13 @@ const teamMembers = [
     Weapons VFX <br>
     Enemies VFX <br>
     "About Us" website section`,
-    media: [],
+    media: [
+
+    ],
     social: {
       twitter: "",
-      linkedin: "",
-      github: "",
+      linkedin: "https://www.linkedin.com/in/toni-romanos-ruiz-850274280/",
+      github: "https://github.com/Toto-RR",
       portfolio: "",
       artstation: "",
       itchio: ""
@@ -1229,4 +1231,11 @@ function showPopup(member) {
 
 function closePopup() {
   document.getElementById("popup").style.display = "none";
+}
+
+window.onclick = function (event) {
+  var popup = document.getElementById("popup");
+  if (event.target == popup) {
+      popup.style.display = "none";
+  }
 }
