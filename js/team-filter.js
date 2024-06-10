@@ -73,12 +73,13 @@ const teamMembers = [
     description: `"For this project I have assumed the role of lead designer. As such, I have been able to experience first hand what it means to work on a big project with a great team of designers. I have also realised the importance of a correct definition in every single aspect of the game. Furthermore, we have learned how fundamental it is to have good and continued communication between departments.<br><br>
     My main responsibility was to coordinate the design department. That involved assigning tasks, ensuring that each deadline was met and keeping the Game Design Document constantly revised and corrected when necessary. <br><br>
     One of my biggest contributions to the projects was on the design of enemies. Starting on the physical appearance and animations. Then moving on to defining their behaviour, attacks, stats, spawn and drops. <br><br>
-    Once the game was on a testing level my job was to organise playtesting sessions with external agents, processing their feedback to ensure a better gaming experience and testing on my own searching for bugs or implementations that needed corrections.<br><br>
+    Once the game was on a testing level my job was to organise playtesting sessions with external agents, as well as creating the forms and processing the feedback gotten through them to ensure a better gaming experience and testing on my own searching for bugs or implementations that needed corrections.<br><br>
     This project has granted me an opportunity to take on more responsibilities than I am used to and thus, forcing me out of my comfort zone. Overall, it has been a gratifying and challenging experience that has led me to discover some strengths and weaknesses that will entail a better development as a professional."`,
     tasks: `Team & tasks organization<br>
     GDD organization<br>
     Enemies design<br>
-    Playtesting sessions & Feedback revision<br>
+    Playtesting sessions<br>
+    Feedback revision<br>
     QA testing`,
     media: [
       { type: 'image', src: "images/projects/Design/Iván Bermúdez/1. Moodboard.PNG", description: "Moodboard" },
