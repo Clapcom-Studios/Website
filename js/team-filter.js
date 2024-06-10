@@ -18,9 +18,7 @@ const teamMembers = [
     Intervention, meditation and negotiation<br>
     General Guide<br>
     Playtesting sessions`,
-    media: [
-      { type: 'image', src: "images/projects/", description: "Description" },
-    ],
+    media: [],
     social: {
       twitter: "",
       linkedin: "https://es.linkedin.com/in/pau-argiz",
@@ -75,14 +73,23 @@ const teamMembers = [
     description: `"For this project I have assumed the role of lead designer. As such, I have been able to experience first hand what it means to work on a big project with a great team of designers. I have also realised the importance of a correct definition in every single aspect of the game. Furthermore, we have learned how fundamental it is to have good and continued communication between departments.<br><br>
     My main responsibility was to coordinate the design department. That involved assigning tasks, ensuring that each deadline was met and keeping the Game Design Document constantly revised and corrected when necessary. <br><br>
     One of my biggest contributions to the projects was on the design of enemies. Starting on the physical appearance and animations. Then moving on to defining their behaviour, attacks, stats, spawn and drops. <br><br>
-    Once the game was on a testing level my job was to organise playtesting sessions with external agents, processing their feedback to ensure a better gaming experience and testing on my own searching for bugs or implementations that needed corrections.<br><br>
+    Once the game was on a testing level my job was to organise playtesting sessions with external agents, as well as creating the forms and processing the feedback gotten through them to ensure a better gaming experience and testing on my own searching for bugs or implementations that needed corrections.<br><br>
     This project has granted me an opportunity to take on more responsibilities than I am used to and thus, forcing me out of my comfort zone. Overall, it has been a gratifying and challenging experience that has led me to discover some strengths and weaknesses that will entail a better development as a professional."`,
     tasks: `Team & tasks organization<br>
     GDD organization<br>
     Enemies design<br>
-    Playtesting sessions & Feedback revision<br>
+    Playtesting sessions<br>
+    Feedback revision<br>
     QA testing`,
-    media: [],
+    media: [
+      { type: 'image', src: "images/projects/Design/Iván Bermúdez/1. Moodboard.PNG", description: "Moodboard" },
+      { type: 'image', src: "images/projects/Design/Iván Bermúdez/2. Enemies stats.PNG", description: "Enemies stats" },
+      { type: 'image', src: "images/projects/Design/Iván Bermúdez/3. Rarity & drops stats.PNG", description: "Rarity & drops stats" },
+      { type: 'image', src: "images/projects/Design/Iván Bermúdez/4. Enemies behavior diagram.PNG", description: "Enemies behavior diagram" },
+      { type: 'image', src: "images/projects/Design/Iván Bermúdez/5. Enemies attacks graphs.PNG", description: "Enemies attacks graphs" },
+      { type: 'image', src: "images/projects/Design/Iván Bermúdez/6. Boss attacks graphs.PNG", description: "Boss attacks graphs" },
+      { type: 'image', src: "images/projects/Design/Iván Bermúdez/7. Enemies audios.PNG", description: "Enemies audios" },
+    ],
     social: {
       linkedin: "https://www.linkedin.com/in/ivan-bermudez-sagra/",
       github: "https://github.com/IBSilver",
@@ -145,21 +152,32 @@ const teamMembers = [
   {
     name: "Guillem Pol Aixut",
     role: "Art Member",
-    imgSrc: "images/team/",
+    imgSrc: "images/team/Guillem Pol Aixut Anderiz.jpg",
     category: "art",
-    description: ``,
+    description: `In this project I had the honor of being a 3D Modeler focused on Environment and Props, thanks to this I have been able to focus most of my time on modeling, which is what attracts me most to the Video Game sector.<br><br>
+    During the development of the game I have learned a lot and discovered very interesting fields in terms of modeling, such as Comic Style Textures, HRHigher Texturing, the use of our own engine...
+    In addition, on one occasion I was able to manage a small group of people and tasks within a ""Sprint"".<br><br>
+    Personally, I am very satisfied with how the game turned out and the great group work we have done to make it possible.`,
     tasks: `
     Environment Art<br>
     Props Art`,
     media: [
-      { type: 'image', src: "images/projects/", description: "Description" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Container.jpg", description: "Container" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Light Source Stick.jpg", description: "Light Source Stick" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Platforms.jpg", description: "Platforms" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Wires.jpg", description: "Wires" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Burnt Room Floor + Wall.jpg", description: "Burnt Room Floor + Wall" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Secret Door.jpg", description: "Secret Door" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Tutorial Wall.jpg", description: "Tutorial Wall" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Wharehouse Floor + Wall.jpg", description: "Warehouse Floor + Wall" },
+      { type: 'gif', src: "images/projects/Art/Guillem Aixut/TableT.gif", description: "Tablet" },
     ],
     social: {
       twitter: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/guillem-pol-aixut-anderiz-79b26725a/",
       github: "https://github.com/GuillemAixut",
       portfolio: "",
-      artstation: "",
+      artstation: "https://sketchfab.com/guillemaixut",
       itchio: ""
     }
   },
@@ -170,21 +188,48 @@ const teamMembers = [
     role: "Art Member",
     imgSrc: "images/team/Enric Arxer.png",
     category: "art",
-    description: ``,
+    description: `At the start of the project, I was tasked with creating concept art for the enemy creatures and some of the blueprints necessary for the 3D modeling. Afterwards, i was tasked with the modeling, texturing, rigging and animating the facehugger.<br><br>
+    After I was incorporated in the props team and tasked with modeling and texturing sci-fi walls, a door with a burned variation and the exterior walls of a spaceship with some variations.<br><br>
+    Near the end I worked on the xenomorph spitter animations, and some small UI changes.<br><br>
+    During this project I learnt all the stages of creating a character, form de concept art to the animations, and help me improve my skills as and artist. In addition, I have experienced how to coordinate temporary a small team and give and receive feedback from other colleagues to improve the final result.
+    `,
     tasks: `Enemies Concept Art<br>
     Prop art<br>
     Creature Modeling, Texturing & Rigging<br>
     Charater 3D Animation `,
     media: [
-      { type: 'image', src: "images/projects/", description: "Description" },
+      { type: 'image', src: "images/projects/Art/Enric Arxer/1.png", description: "" },
+      { type: 'image', src: "images/projects/Art/Enric Arxer/2.png", description: "" },
+      { type: 'image', src: "images/projects/Art/Enric Arxer/3.png", description: "" },
+      { type: 'image', src: "images/projects/Art/Enric Arxer/4.png", description: "" },
+      { type: 'image', src: "images/projects/Art/Enric Arxer/5.png", description: "" },
+      { type: 'image', src: "images/projects/Art/Enric Arxer/6.png", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/11.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/12.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/13.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/21.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/31.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/32.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/33.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/34.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/35.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/36.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/37.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/41.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/42.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/43.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/44.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/45.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/46.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/47.gif", description: "" },
     ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/enric-arxer/",
       github: "https://github.com/Luxary-Arxer",
-      portfolio: "",
+      portfolio: "https://sketchfab.com/luxary.arxer",
       artstation: "https://luxary_arxer.artstation.com",
-      itchio: ""
+      itchio: "https://luxary.itch.io/"
     }
   },
 
@@ -231,16 +276,19 @@ const teamMembers = [
     Reference & aesthetics study<br>
     Technical and artsitic support`,
     media: [
-      { type: 'image', src: "images/projects/Art/Arnau González/alien_head_low_substance_render.jpg", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Arnau González/fleshDoor2.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Arnau González/hrgiger_render1_bright.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Arnau González/nostromoWall2.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Arnau González/reactor2.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Arnau González/serverWall.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Arnau González/warehouse_concept_render.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Arnau González/workbench_base.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Arnau González/workbench.png", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Arnau González/alienHead_animation.gif", description: "Description" },
+      { type: 'image', src: "images/projects/Art/Arnau González/alien_head_low_substance_render.jpg", description: "Alien Head Trap" },
+      { type: 'image', src: "images/projects/Art/Arnau González/fleshDoor2.png", description: "H. R. Giger inspired Door" },
+      { type: 'image', src: "images/projects/Art/Arnau González/hrgiger_render1_bright.png", description: "Environment example using H. R. Giger inspired assets I made" },
+      { type: 'image', src: "images/projects/Art/Arnau González/nostromoWall2.png", description: "Nostromo Like Hallway Wall" },
+      { type: 'image', src: "images/projects/Art/Arnau González/reactor2.png", description: "Lab Reactor (ver 1, not in-game)" },
+      { type: 'image', src: "images/projects/Art/Arnau González/serverWall.png", description: "Server Room Wall" },
+      { type: 'image', src: "images/projects/Art/Arnau González/warehouse_concept_render.png", description: "Warehouse intersection environment concept" },
+      { type: 'image', src: "images/projects/Art/Arnau González/workbench_base.png", description: "Workbench for the Base level with Nostromo colors" },
+      { type: 'image', src: "images/projects/Art/Arnau González/workbench.png", description: "Workbench for Level 1 (not in-game)" },
+      { type: 'gif', src: "images/projects/Art/Arnau González/alienHead_animation.gif", description: "Alien Head Trap Animation" },
+      { type: 'image', src: "images/projects/Art/Arnau González/queenCorridor1.png", description: "Environment using H.R.Giger Assets" },
+      { type: 'image', src: "images/projects/Art/Arnau González/queenCorridor2.png", description: "Environment using H.R.Giger Assets" },
+      { type: 'image', src: "images/projects/Art/Arnau González/queenCorridor3.png", description: "Environment using H.R.Giger Assets" },
     ],
     social: {
       twitter: "",
@@ -259,10 +307,15 @@ const teamMembers = [
     imgSrc: "images/team/JoelMaldonado.jpg",
     category: "art",
     description: `"In this project I have adopted the role as the main UI artist, being in charge of creating practically all the screens with the game interface, loading screens and menus and animating them as well as creating the icons of items, weapons, buttons and giving them all the retrofuturistic aesthetics that characterizes the Alien saga.<br><br>
-Thanks to the continued use of video and image editing tools during the duration of the project I can say that I have learned to use with more fluency such tools like Photoshop or After Effects. In addition to understanding the importance of communication in large teams.`,
+    Thanks to the continued use of video and image editing tools during the duration of the project I can say that I have learned to use with more fluency such tools like Photoshop or After Effects. In addition to understanding the importance of communication in large teams.`,
     tasks: `HUD & User Interface`,
     media: [
-      { type: 'image', src: "images/projects/", description: "Description" },
+      { type: 'image', src: "images/projects/Art/Joel Maldonado/inventario.png", description: "Inventory" },
+      { type: 'gif', src: "images/projects/Art/Joel Maldonado/Warehouse.gif", description: "Warehouse" },
+      { type: 'mp4', src: "images/projects/Art/Joel Maldonado/Inventory.mp4", description: "Inventory" },
+      { type: 'mp4', src: "images/projects/Art/Joel Maldonado/Crafting.mp4", description: "Crafting" },
+      { type: 'mp4', src: "images/projects/Art/Joel Maldonado/WeaponStationAnimation.mp4", description: "Weapon Station Animation" },
+
     ],
     social: {
       twitter: "",
@@ -287,7 +340,15 @@ Thanks to the continued use of video and image editing tools during the duration
     Prop Art (organic)<br>
     Game Icon ^^`,
     media: [
-      { type: 'image', src: "images/projects/", description: "Description" },
+      { type: 'image', src: "images/projects/Art/Dani Mañas/render.png", description: "Xenomorph, spitter, ovomorphs and egg holders" },
+      { type: 'image', src: "images/projects/Art/Dani Mañas/1. Queen_Concept.png", description: "Alien Queen Concept Art" },
+      { type: 'image', src: "images/projects/Art/Dani Mañas/2. Spitter_Concept.png", description: "Spitter Concept Art" },
+      { type: 'image', src: "images/projects/Art/Dani Mañas/3. Queen_Blueprint.png", description: "Alien Queen Blueprint for 3D modeling" },
+      { type: 'image', src: "images/projects/Art/Dani Mañas/4. Ovomorph_Concept.png", description: "Ovomorph Concept Art" },
+      { type: 'image', src: "images/projects/Art/Dani Mañas/5. Facehugger_Concept.png", description: "Facehugger Concept Art" },
+      { type: 'image', src: "images/projects/Art/Dani Mañas/6. Spitter_Blueprint.png", description: "Spitter Blueprint for 3D modeling" },
+      { type: 'image', src: "images/projects/Art/Dani Mañas/Alien_Extraction_Logo.png", description: "Clapcom Studio Logo Proposal" },
+      { type: 'image', src: "images/projects/Art/Dani Mañas/Alien_Extraction_Logo 1.png", description: "Alien Extraction Icon" },
     ],
     social: {
       twitter: "",
@@ -313,13 +374,18 @@ Thanks to the continued use of video and image editing tools during the duration
     HUD & User Interface<br>
     Enemy animations (Xenomorph, Queen)`,
     media: [
-      { type: 'gif', src: "images/projects/Art/Dani Mariages/Boss_acid_spit.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Dani Mariages/Boss_Claw (1).gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Dani Mariages/Boss_Idle.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Dani Mariages/Die_V2.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Dani Mariages/Drone_Die.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Dani Mariages/Drone_Walk.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Dani Mariages/Tail_Attack_V2.gif", description: "Description" },
+      { type: 'gif', src: "images/projects/Art/Dani Mariages/Boss_acid_spit.gif", description: "Boss acid spit" },
+      { type: 'gif', src: "images/projects/Art/Dani Mariages/Boss_Claw (1).gif", description: "Boss Claw" },
+      { type: 'gif', src: "images/projects/Art/Dani Mariages/Boss_Idle.gif", description: "Boss Idle" },
+      { type: 'gif', src: "images/projects/Art/Dani Mariages/Die_V2.gif", description: "Die" },
+      { type: 'gif', src: "images/projects/Art/Dani Mariages/Drone_Die.gif", description: "Drone Die" },
+      { type: 'gif', src: "images/projects/Art/Dani Mariages/Drone_Walk.gif", description: "Drone Walk" },
+      { type: 'gif', src: "images/projects/Art/Dani Mariages/Tail_Attack_V2.gif", description: "Tail Attack" },
+      { type: 'gif', src: "images/projects/Art/Dani Mariages/Boss_Dash.gif", description: "Boss Dash" },
+      { type: 'gif', src: "images/projects/Art/Dani Mariages/Claw_Attack.gif", description: "Claw Attack" },
+      { type: 'gif', src: "images/projects/Art/Dani Mariages/Cry.gif", description: "Cry" },
+      { type: 'image', src: "images/projects/Art/Dani Mariages/HUD.png", description: "HUD" },
+      { type: 'image', src: "images/projects/Art/Dani Mariages/Inventory.png", description: "Inventory" },
     ],
     social: {
       twitter: "",
@@ -345,34 +411,38 @@ Thanks to the continued use of video and image editing tools during the duration
     Character animations<br>
     Cutscene images`,
     media: [
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/CaiusClean.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/CaiusIdle.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/IscariotAngry.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/IscariotIdle.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenBaseIdle.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenBaseWalk.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenDamage.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenDash.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenDeath.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenIdle.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenShooting.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenSpin.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenSpit.gif", description: "Description" },
-      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenWalk.gif", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/antagonistv2Pet.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/blueprintBoss.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/COA_BOSS.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/COA_BOSS_Head.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/fullBody1.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/npc_clothes.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/caius.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneDestruction.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneRaisen.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneRaisen2.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesBoom3.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesCaius.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesSpace.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesW.png", description: "Description" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/CaiusClean.gif", description: "Caius Clean" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/CaiusIdle.gif", description: "Caius Idle" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/IscariotAngry.gif", description: "Iscariot Angry" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/IscariotIdle.gif", description: "Iscariot Idle" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenBaseIdle.gif", description: "Raisen Base Idle" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenBaseWalk.gif", description: "Raisen Base Walk" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenDamage.gif", description: "Raisen Damage" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenDash.gif", description: "Raisen Dash" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenDeath.gif", description: "Raisen Death" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenIdle.gif", description: "Raisen Idle" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenShooting.gif", description: "Raisen Shooting" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenSpin.gif", description: "Raisen Spin" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenSpit.gif", description: "Raisen Spit" },
+      { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenWalk.gif", description: "Raisen Walk" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/fullBody1.png", description: "Raisen Concept" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/antagonistv2Pet.png", description: "Iscariot Concept" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/npc_clothes.png", description: "Caius Concept" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/COA_BOSS.png", description: "Boss Concept 1" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/blueprintBoss.png", description: "Boss Concept 2" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/COA_BOSS_Head.png", description: "Head Concept" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesCaius.png", description: "Cutscene 1" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneRaisen.png", description: "Cutscene 2" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesSpace.png", description: "Cutscene 3" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneRaisen2.png", description: "Cutscene 4" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/caius.png", description: "Cutscene 5" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesW.png", description: "Cutscene 6" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneDestruction.png", description: "Cutscene 7" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesBoom3.png", description: "Cutscene 8" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/TexRaisen1.png", description: "Texture Raisen 1" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/TexRaisen2.png", description: "Texture Raisen 2" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Caius Dialogo.png", description: "Caius Dialogue" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Iscariot Dialogo.png", description: "Iscariot Dialogue" },
     ],
     social: {
       twitter: "",
@@ -394,7 +464,11 @@ Thanks to the continued use of video and image editing tools during the duration
     tasks: `Enviroment Art.<br>
     Prop Art.`,
     media: [
-      { type: 'image', src: "", description: "Description" },
+      { type: 'image', src: "images/projects/Art/Adrian Ramirez/Altar.png", description: "Altar" },
+      { type: 'image', src: "images/projects/Art/Adrian Ramirez/HandPallet.png", description: "Hand Pallet" },
+      { type: 'image', src: "images/projects/Art/Adrian Ramirez/MonitoringConsole.png", description: "Monitoring Console" },
+      { type: 'image', src: "images/projects/Art/Adrian Ramirez/Server.png", description: "Server" },
+      { type: 'image', src: "images/projects/Art/Adrian Ramirez/TpWall.png", description: "Tp Wall" },
     ],
     social: {
       twitter: "",
@@ -419,7 +493,11 @@ Thanks to the continued use of video and image editing tools during the duration
     Prop Art.<br>
     Weapons Art.`,
     media: [
-      { type: 'image', src: "", description: "Description" },
+      { type: 'image', src: "images/projects/Art/Joan Giol/AllPlasmaCannon.png", description: "All Plasma Cannon" },
+      { type: 'image', src: "images/projects/Art/Joan Giol/AllShotgun.png", description: "All Shotgun" },
+      { type: 'image', src: "images/projects/Art/Joan Giol/AllSubmachine.png", description: "All Submachine" },
+      { type: 'image', src: "images/projects/Art/Joan Giol/WareHouseDoor.png", description: "WareHouse Door" },
+      { type: 'image', src: "images/projects/Art/Joan Giol/WareHouseDoor2.png", description: "WareHouse Door 2" },
     ],
     social: {
       twitter: "",
@@ -443,7 +521,7 @@ Thanks to the continued use of video and image editing tools during the duration
     Prop Art`,
     media: [
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_2.png", description: "Description" },
-      { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_2.png", description: "Description" },
+      { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_3.png", description: "Description" },
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_4.png", description: "Description" },
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_5.png", description: "Description" },
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_6.png", description: "Description" },
@@ -517,7 +595,10 @@ Thanks to the continued use of video and image editing tools during the duration
     This project showed me how to work with a large team, how important comunication is and the effect VFX have on the player.`,
     tasks: `Level Design <br>
     Particles`,
-    media: [],
+    media: [  
+      { type: 'image', src: "images/projects/Design/Andreu Miró/Base_Map.PNG", description: "" },
+      { type: 'image', src: "images/projects/Design/Andreu Miró/LVL1_Wharehouse_Map.PNG", description: "" },
+    ],
     social: {
       twitter: "",
       linkedin: "www.linkedin.com/in/andreu-miró-sabaté",
@@ -542,7 +623,11 @@ Thanks to the continued use of video and image editing tools during the duration
     Items and Inventory <br>
     UX/UI <br>
     QA`,
-    media: [],
+    media: [
+      { type: 'image', src: "images/projects/Design/Xavi Prats/AllMenuWireframe.png", description: "All Menu Wireframe" },
+      { type: 'image', src: "images/projects/Design/Xavi Prats/WireframeInv.png", description: "Wireframe Inventory" },
+    
+    ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/xavier-prats-paredes/",
@@ -564,7 +649,16 @@ Thanks to the continued use of video and image editing tools during the duration
     tasks: `Gameplay Design.<br>
     Stats balancing<br>
     Particles Programmer`,
-    media: [],
+    media: [
+      { type: 'image', src: "images/projects/Design/Eric Segovia/Còpia de image(38).png", description: "" },
+      { type: 'image', src: "images/projects/Design/Eric Segovia/Còpia de Moodboard Main Characther.png", description: "" },
+      { type: 'mp4', src: "images/projects/Design/Eric Segovia/Particulas (2).mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Design/Eric Segovia/Plasma final demostracion.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Design/Eric Segovia/Shotgun final demostration.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Design/Eric Segovia/Showoff particles potential.mp4", description: "" },
+      { type: 'mp4', src: "images/projects/Design/Eric Segovia/SMG final demonstration.mp4", description: "" },
+    
+    ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/%C3%A9ric-segovia-baena-573017177/",
@@ -608,7 +702,10 @@ Thanks to the continued use of video and image editing tools during the duration
     tasks: `Level Design<br>
     Audio Design & Implementation<br>
     Lightning Design`,
-    media: [],
+    media: [  
+      { type: 'image', src: "images/projects/Design/Víctor Gil/Còpia de LV2 - THE_LAB.png", description: "LV2 - THE LAB" },
+      { type: 'image', src: "images/projects/Design/Víctor Gil/Còpia de LV3 - THE HATCHERY(REWORK+REESTRUCTURATED).png", description: "LV3 - THE HATCHERY" },
+    ],
     social: {
       twitter: "",
       linkedin: "",
@@ -695,22 +792,28 @@ Thanks to the continued use of video and image editing tools during the duration
     role: "Code Member",
     imgSrc: "images/team/Mario García.jpg",
     category: "code",
-    description: `During this project I have been in charge of the role of programmer.<br><br>
-    At the beginning I did the implementation of the Audio module in the game engine.<br><br>
-    Later, I became gameplay programmer, creating a first iteration of the weapon system. And finally, I made all the player's skills and interactions, apart from fixing bugs and doing QA.`,
+    description: `During this project I have been in charge of the role of programmer.
+    At the beginning I did the implementation of the Audio module in the game engine.
+    Later, I became gameplay programmer, creating all the player scripts and a first iteration of the weapon upgrade and firing systems. And finally, I made all the player's animations, skills and interactions, apart from fixing bugs and doing QA.`,
     tasks: `Audio module implementation<br>
     Player structure programming<br>
     First weapon implementation<br>
     Player skills programming<br>
     Fix a lot of player bugs`,
-    media: [],
+    media: [
+      { type: 'mp4', src: "images/projects/Code/Mario García/Player FSM, Animations, Skills & Interactions Overview_1.mp4", description: "Player FSM, Animations, Skills & Interactions Overview" },
+      { type: 'mp4', src: "images/projects/Code/Mario García/Tail Swipe Skill_2.mp4", description: "Tail Swipe Skill" },
+      { type: 'mp4', src: "images/projects/Code/Mario García/Acidic Spit Skill_3.mp4", description: "Acidic Spit Skill" },
+      { type: 'mp4', src: "images/projects/Code/Mario García/Predatory Rush Skill_4.mp4", description: "Predatory Rush Skill" },
+      { type: 'mp4', src: "images/projects/Code/Mario García/Player Weapon Upgrade System_5.mp4", description: "Player Weapon Upgrade System" },
+    ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/mario-garcía-sutil-7086072b2/",
       github: "https://github.com/mariogs5",
       portfolio: "https://mariogs5.github.io/Portfolio/",
       artstation: "",
-      itchio: ""
+      itchio: "https://itch.io/profile/balun"
     }
   },
 
@@ -729,7 +832,15 @@ Thanks to the continued use of video and image editing tools during the duration
     Loot chest, doors, dialogue system and narrative elements<br>
     QoL working with Ymir Engine<br>
     Enemy health bar`,
-    media: [],
+    media: [
+      { type: 'mp4', src: "images/projects/Code/Eric Luque/Chest.mp4", description: "Chest" },
+      { type: 'mp4', src: "images/projects/Code/Eric Luque/Dialogue System.mp4", description: "Dialogue System" },
+      { type: 'mp4', src: "images/projects/Code/Eric Luque/Door Showcase.mp4", description: "Door Showcase" },
+      { type: 'mp4', src: "images/projects/Code/Eric Luque/Key.mp4", description: "Key" },
+      { type: 'mp4', src: "images/projects/Code/Eric Luque/PopUps.mp4", description: "PopUps" },
+      { type: 'mp4', src: "images/projects/Code/Eric Luque/Scripting System.mp4", description: "Scripting System" },
+      { type: 'image', src: "images/projects/Code/Eric Luque/Dialogues CSV.png", description: "Dialogues CSV" },
+    ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/ericgamedev/",
@@ -763,7 +874,16 @@ Thanks to the continued use of video and image editing tools during the duration
     Game Save&Load<br>
     Items system<br>
     Bug fixing`,
-    media: [],
+    media: [
+      { type: 'mp4', src: "images/projects/Code/Sara Martínez/ImageAnim_Showcase.mp4", description: "ImageAnim Showcase" },
+      { type: 'mp4', src: "images/projects/Code/Sara Martínez/Menus_Showcase.mp4", description: "Menus Showcase" },
+      { type: 'mp4', src: "images/projects/Code/Sara Martínez/Slider_Showcase.mp4", description: "Slider Showcase" },
+      { type: 'mp4', src: "images/projects/Code/Sara Martínez/Text_Showcase.mp4", description: "Text Showcase" },
+      { type: 'mp4', src: "images/projects/Code/Sara Martínez/YmirTheme.mp4", description: "Ymir Theme" },
+      { type: 'image', src: "images/projects/Code/Sara Martínez/Main Menu.png", description: "Main Menu" },
+      { type: 'image', src: "images/projects/Code/Sara Martínez/UI_elements.jpg", description: "UI elements" },
+
+    ],
     social: {
       twitter: "",
       linkedin: "www.linkedin.com/in/sara-qiao-martínez-mauri",
@@ -818,11 +938,13 @@ Thanks to the continued use of video and image editing tools during the duration
     Weapons VFX <br>
     Enemies VFX <br>
     "About Us" website section`,
-    media: [],
+    media: [
+
+    ],
     social: {
       twitter: "",
-      linkedin: "",
-      github: "",
+      linkedin: "https://www.linkedin.com/in/toni-romanos-ruiz-850274280/",
+      github: "https://github.com/Toto-RR",
       portfolio: "",
       artstation: "",
       itchio: ""
@@ -869,14 +991,20 @@ Thanks to the continued use of video and image editing tools during the duration
     Dialogue system<br>
     Cutscenes Implementation<br>
     Bug Fixing`,
-    media: [],
+    media: [
+      { type: 'mp4', src: "images/projects/Code/Marcel Sunyer/Cutscenes.mp4", description: "Cutscenes" },
+      { type: 'mp4', src: "images/projects/Code/Marcel Sunyer/Dialogue System.mp4", description: "Dialogue System" },
+      { type: 'mp4', src: "images/projects/Code/Marcel Sunyer/Lvl2Part2.mp4", description: "Lvl2 Part2" },
+      { type: 'mp4', src: "images/projects/Code/Marcel Sunyer/OnCollisionTest.mp4", description: "OnCollision Test" },
+      { type: 'mp4', src: "images/projects/Code/Marcel Sunyer/TagSystem.mp4", description: "Tag System" },
+    ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/marcel-sunyer-28910a133/",
       github: "https://github.com/MarcelSunyer",
       portfolio: "https://marcelsunyer.github.io/Marcel.github.io/",
       artstation: "",
-      itchio: ""
+      itchio: "https://marcelsunyer.itch.io/"
     }
   },
 
@@ -1109,4 +1237,11 @@ function showPopup(member) {
 
 function closePopup() {
   document.getElementById("popup").style.display = "none";
+}
+
+window.onclick = function (event) {
+  var popup = document.getElementById("popup");
+  if (event.target == popup) {
+      popup.style.display = "none";
+  }
 }
