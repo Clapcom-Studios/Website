@@ -941,7 +941,19 @@ const teamMembers = [
     Enemies VFX <br>
     "About Us" website section`,
     media: [
-
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/ParticleSystem.gif", description: "Particle System" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/FirstAcidic.gif", description: "First Acidic" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/FirstDash.gif", description: "First Dash" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/FirstPredatory.gif", description: "First Predatory" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/FirstTailSwipe.gif", description: "First Tail Swipe" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/AcidicSpit.gif", description: "Acidic Spit" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/Damage.gif", description: "Damage" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/Healing.gif", description: "Healing" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/Movement.gif", description: "Movement" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/PredatoryRush.gif", description: "Predatory Rush" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/Shotgun.gif", description: "Shotgun" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/SpitterDamage.gif", description: "Spitter Damage" },
+      { type: 'gif', src: "images/projects/Code/Toni Romanos/FaceHuggerDamage.gif", description: "FaceHugger Damage" },
     ],
     social: {
       twitter: "",
