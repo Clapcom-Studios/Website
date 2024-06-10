@@ -18,9 +18,7 @@ const teamMembers = [
     Intervention, meditation and negotiation<br>
     General Guide<br>
     Playtesting sessions`,
-    media: [
-      { type: 'image', src: "images/projects/", description: "Description" },
-    ],
+    media: [],
     social: {
       twitter: "",
       linkedin: "https://es.linkedin.com/in/pau-argiz",
