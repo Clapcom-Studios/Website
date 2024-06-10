@@ -153,7 +153,7 @@ const teamMembers = [
   {
     name: "Guillem Pol Aixut",
     role: "Art Member",
-    imgSrc: "images/team/",
+    imgSrc: "images/team/Guillem Pol Aixut Anderiz.jpg",
     category: "art",
     description: `In this project I had the honor of being a 3D Modeler focused on Environment and Props, thanks to this I have been able to focus most of my time on modeling, which is what attracts me most to the Video Game sector.<br><br>
     During the development of the game I have learned a lot and discovered very interesting fields in terms of modeling, such as Comic Style Textures, HRHigher Texturing, the use of our own engine...
@@ -167,6 +167,10 @@ const teamMembers = [
       { type: 'image', src: "images/projects/Art/Guillem Aixut/Light Source Stick.jpg", description: "Light Source Stick" },
       { type: 'image', src: "images/projects/Art/Guillem Aixut/Platforms.jpg", description: "Platforms" },
       { type: 'image', src: "images/projects/Art/Guillem Aixut/Wires.jpg", description: "Wires" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Burnt Room Floor + Wall.jpg", description: "Burnt Room Floor + Wall" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Secret Door.jpg", description: "Secret Door" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Tutorial Wall.jpg", description: "Tutorial Wall" },
+      { type: 'image', src: "images/projects/Art/Guillem Aixut/Wharehouse Floor + Wall.jpg", description: "Warehouse Floor + Wall" },
       { type: 'gif', src: "images/projects/Art/Guillem Aixut/TableT.gif", description: "Tablet" },
     ],
     social: {
@@ -185,11 +189,11 @@ const teamMembers = [
     role: "Art Member",
     imgSrc: "images/team/Enric Arxer.png",
     category: "art",
-    description: `"At the start of the project, I was tasked with creating concept art for the enemy creatures and some of the blueprints necessary for the 3D modeling. Afterwards, i was tasked with the modeling, texturing, rigging and animating the facehugger.<br><br>
+    description: `At the start of the project, I was tasked with creating concept art for the enemy creatures and some of the blueprints necessary for the 3D modeling. Afterwards, i was tasked with the modeling, texturing, rigging and animating the facehugger.<br><br>
     After I was incorporated in the props team and tasked with modeling and texturing sci-fi walls, a door with a burned variation and the exterior walls of a spaceship with some variations.<br><br>
     Near the end I worked on the xenomorph spitter animations, and some small UI changes.<br><br>
     During this project I learnt all the stages of creating a character, form de concept art to the animations, and help me improve my skills as and artist. In addition, I have experienced how to coordinate temporary a small team and give and receive feedback from other colleagues to improve the final result.
-    "`,
+    `,
     tasks: `Enemies Concept Art<br>
     Prop art<br>
     Creature Modeling, Texturing & Rigging<br>
@@ -205,14 +209,21 @@ const teamMembers = [
       { type: 'image', src: "images/projects/Art/Enric Arxer/12.gif", description: "" },
       { type: 'image', src: "images/projects/Art/Enric Arxer/13.gif", description: "" },
       { type: 'image', src: "images/projects/Art/Enric Arxer/21.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/41.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/42.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/43.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/44.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/45.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/46.gif", description: "" },
+      { type: 'gif', src: "images/projects/Art/Enric Arxer/47.gif", description: "" },
     ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/enric-arxer/",
       github: "https://github.com/Luxary-Arxer",
-      portfolio: "",
+      portfolio: "https://sketchfab.com/luxary.arxer",
       artstation: "https://luxary_arxer.artstation.com",
-      itchio: ""
+      itchio: "https://luxary.itch.io/"
     }
   },
 
@@ -408,22 +419,24 @@ const teamMembers = [
       { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenSpin.gif", description: "Raisen Spin" },
       { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenSpit.gif", description: "Raisen Spit" },
       { type: 'gif', src: "images/projects/Art/Sonia Ojeda/Animaciones/RaisenWalk.gif", description: "Raisen Walk" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/antagonistv2Pet.png", description: "Antagonist V2 Pet" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/blueprintBoss.png", description: "Blueprint Boss" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/COA_BOSS.png", description: "COA_BOSS" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/COA_BOSS_Head.png", description: "COA_BOSS_Head" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/fullBody1.png", description: "Full Body" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/npc_clothes.png", description: "NPC Clothes" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/caius.png", description: "Caius" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneDestruction.png", description: "Cutscene Destruction" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneRaisen.png", description: "Cutscene Raisen" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneRaisen2.png", description: "Cutscene Raisen" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesBoom3.png", description: "Cutscene Boom" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesCaius.png", description: "Cutscene Caius" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesSpace.png", description: "Cutscene Space" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesW.png", description: "Cutscene W" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/TexRaisen1.png", description: "Tex Raisen" },
-      { type: 'image', src: "images/projects/Art/Sonia Ojeda/TexRaisen2.png", description: "Tex Raisen" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/fullBody1.png", description: "Raisen Concept" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/antagonistv2Pet.png", description: "Iscariot Concept" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/npc_clothes.png", description: "Caius Concept" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/COA_BOSS.png", description: "Boss Concept 1" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/blueprintBoss.png", description: "Boss Concept 2" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/ConceptArt/COA_BOSS_Head.png", description: "Head Concept" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesCaius.png", description: "Cutscene 1" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneRaisen.png", description: "Cutscene 2" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesSpace.png", description: "Cutscene 3" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneRaisen2.png", description: "Cutscene 4" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/caius.png", description: "Cutscene 5" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesW.png", description: "Cutscene 6" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutsceneDestruction.png", description: "Cutscene 7" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Cutscenes/cutscenesBoom3.png", description: "Cutscene 8" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/TexRaisen1.png", description: "Texture Raisen 1" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/TexRaisen2.png", description: "Texture Raisen 2" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Caius Dialogo.png", description: "Caius Dialogue" },
+      { type: 'image', src: "images/projects/Art/Sonia Ojeda/Iscariot Dialogo.png", description: "Iscariot Dialogue" },
     ],
     social: {
       twitter: "",
@@ -474,7 +487,11 @@ const teamMembers = [
     Prop Art.<br>
     Weapons Art.`,
     media: [
-      { type: 'image', src: "", description: "Description" },
+      { type: 'image', src: "images/projects/Art/Joan Giol/AllPlasmaCannon.png", description: "All Plasma Cannon" },
+      { type: 'image', src: "images/projects/Art/Joan Giol/AllShotgun.png", description: "All Shotgun" },
+      { type: 'image', src: "images/projects/Art/Joan Giol/AllSubmachine.png", description: "All Submachine" },
+      { type: 'image', src: "images/projects/Art/Joan Giol/WareHouseDoor.png", description: "WareHouse Door" },
+      { type: 'image', src: "images/projects/Art/Joan Giol/WareHouseDoor2.png", description: "WareHouse Door 2" },
     ],
     social: {
       twitter: "",
@@ -769,9 +786,9 @@ const teamMembers = [
     role: "Code Member",
     imgSrc: "images/team/Mario García.jpg",
     category: "code",
-    description: `During this project I have been in charge of the role of programmer.<br><br>
-    At the beginning I did the implementation of the Audio module in the game engine.<br><br>
-    Later, I became gameplay programmer, creating a first iteration of the weapon system. And finally, I made all the player's skills and interactions, apart from fixing bugs and doing QA.`,
+    description: `During this project I have been in charge of the role of programmer.
+    At the beginning I did the implementation of the Audio module in the game engine.
+    Later, I became gameplay programmer, creating all the player scripts and a first iteration of the weapon upgrade and firing systems. And finally, I made all the player's animations, skills and interactions, apart from fixing bugs and doing QA.`,
     tasks: `Audio module implementation<br>
     Player structure programming<br>
     First weapon implementation<br>
@@ -790,7 +807,7 @@ const teamMembers = [
       github: "https://github.com/mariogs5",
       portfolio: "https://mariogs5.github.io/Portfolio/",
       artstation: "",
-      itchio: ""
+      itchio: "https://itch.io/profile/balun"
     }
   },
 
@@ -979,7 +996,7 @@ const teamMembers = [
       github: "https://github.com/MarcelSunyer",
       portfolio: "https://marcelsunyer.github.io/Marcel.github.io/",
       artstation: "",
-      itchio: ""
+      itchio: "https://marcelsunyer.itch.io/"
     }
   },
 
