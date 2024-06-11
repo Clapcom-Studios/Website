@@ -992,9 +992,9 @@ const teamMembers = [
     Player Weapons<br>
     Player Bug Fixing`,
     media: [
+      { type: 'mp4', src: "images/projects/Code/Biel Rubio/Skeletal Animation Features.mp4", description: "Skeletal Animation Features" },
       { type: 'mp4', src: "images/projects/Code/Biel Rubio/Animation Blending.mp4", description: "Animation Blending" },
       { type: 'mp4', src: "images/projects/Code/Biel Rubio/Auto-Aim to nearest target.mp4", description: "Auto-Aim to nearest target" },
-      { type: 'mp4', src: "images/projects/Code/Biel Rubio/Skeletal Animation Features.mp4", description: "Skeletal Animation Features" },
       { type: 'mp4', src: "images/projects/Code/Biel Rubio/Weapon & Upgrades.mp4", description: "Weapon & Upgrades" },
 
     ],
@@ -1004,7 +1004,7 @@ const teamMembers = [
       github: "https://github.com/BielRubio",
       portfolio: "",
       artstation: "",
-      itchio: ""
+      itchio: "https://rubios-games.itch.io/"
     }
   },
 
