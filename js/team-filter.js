@@ -991,7 +991,13 @@ const teamMembers = [
     Scripting Skeletal Animation<br>
     Player Weapons<br>
     Player Bug Fixing`,
-    media: [],
+    media: [
+      { type: 'mp4', src: "images/projects/Code/Biel Rubio/Animation Blending.mp4", description: "Animation Blending" },
+      { type: 'mp4', src: "images/projects/Code/Biel Rubio/Auto-Aim to nearest target.mp4", description: "Auto-Aim to nearest target" },
+      { type: 'mp4', src: "images/projects/Code/Biel Rubio/Skeletal Animation Features.mp4", description: "Skeletal Animation Features" },
+      { type: 'mp4', src: "images/projects/Code/Biel Rubio/Weapon & Upgrades.mp4", description: "Weapon & Upgrades" },
+
+    ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/biel-rubio-dieste-2bba7b2b3/",
