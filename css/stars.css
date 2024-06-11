@@ -2,11 +2,7 @@
     --col: #FFF; 
   }
   
-  html {
-    height: 100%;
-    background: radial-gradient(ellipse at bottom, #0b0f08 0%, #112711 50%, #3a5334 75%, #5f9b7e 100%);
-    overflow: hidden;
-  }
+
   
   #stars {
     width: 1px;
@@ -67,3 +63,4 @@
       transform: translateY(-2000px);
     }
   }
+
