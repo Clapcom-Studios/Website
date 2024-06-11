@@ -111,7 +111,8 @@ const teamMembers = [
     I am proud of what we have achieved, especially in creating a visually stunning and cohesive game world that stays true to the Alien IP. Despite all the problems coming from the engine, our team has produced exceptional results that we can all be proud of.`,
     tasks: `Team & Tasks Organization<br>
     Constant Artsitic Support<br>
-    Characters Modeling & Texturing<br>
+    Characters Modeling<br>
+    Characters Texturing<br>
     VFX<br>
     Studio Branding & Merchandising`,
     media: [
@@ -194,7 +195,7 @@ const teamMembers = [
     tasks: `Enemies Concept Art<br>
     Prop art<br>
     Creature Modeling, Texturing & Rigging<br>
-    Charater 3D Animation `,
+    Character 3D Animation `,
     media: [
       { type: 'image', src: "images/projects/Art/Enric Arxer/1.png", description: "Facehugger Concept art" },
       { type: 'image', src: "images/projects/Art/Enric Arxer/2.png", description: "Facehugger 3D modeling blueprint" },
@@ -463,8 +464,8 @@ const teamMembers = [
     imgSrc: "images/team/Adrian Ramirez.jpg",
     category: "art",
     description: `As a Prop and Environment Artist specializing in non-organic props, I contributed to various aspects of the project, including the creation of floors, walls, exterior environments, and lab and warehouse props. My role involved improving modeling and texturing techniques to ensure high-quality assets. Throughout the project, I gained valuable experience on mentioned techniques, as well as working within a large team, learning to navigate challenges and collaborate effectively to achieve our objectives.`,
-    tasks: `Enviroment Art.<br>
-    Prop Art.`,
+    tasks: `Enviroment Art<br>
+    Prop Art`,
     media: [
       { type: 'image', src: "images/projects/Art/Adrian Ramirez/Altar.png", description: "Altar" },
       { type: 'image', src: "images/projects/Art/Adrian Ramirez/HandPallet.png", description: "Hand Pallet" },
@@ -491,9 +492,9 @@ const teamMembers = [
     description: `At the beginning of this project, I started as an environment artist, creating various props for different levels, such as a box, a door, floors, and other non-organic items. After contributing to the world team by helping with these props, I began the major part of my work on this project, which was modeling and texturing all the weapons for the game. This task was a journey I enjoyed a lot because it helped me sharpen my skills in modeling and texturing.<br><br>
     After finishing this project, I can say I learned many things, such as the importance of communication and maintaining good relationships with team members. This project also allowed me to learn Blender, a magnificent program that greatly assisted me in creating the weapons.<br><br>
     In conclusion, I am very proud of the whole team. Despite the challenges we faced during the project, we overcame them and finished with a high-quality game.`,
-    tasks: `Enviroment Art.<br>
-    Prop Art.<br>
-    Weapons Art.`,
+    tasks: `Environment Art<br>
+    Prop Art<br>
+    Weapons Art`,
     media: [
       { type: 'image', src: "images/projects/Art/Joan Giol/AllPlasmaCannon.png", description: "All Plasma Cannon" },
       { type: 'image', src: "images/projects/Art/Joan Giol/AllShotgun.png", description: "All Shotgun" },
@@ -519,7 +520,7 @@ const teamMembers = [
     category: "art",
     description: `I have been a 3D enviroment artist in this project, where I made all types of props, specializing in the non organics ones. Some of the props that I made are: Floors, doors, pipes, office objects and decals. <br><br>
     I was the leader of my Scrum Group multiples time, and I learned how to lead a team to acomplish the times and objectives. Also, I have improved my techinques of moddeling in Maya and texturize in Substance.`,
-    tasks: `Enviroment Art<br>
+    tasks: `Environment Art<br>
     Prop Art`,
     media: [
       { type: 'image', src: "images/projects/Art/Alberto Hidalgo/Alberto_Hidalgo_Portfolio_2.png", description: "Description" },
@@ -642,13 +643,13 @@ const teamMembers = [
 
   //Eric Segovia
   {
-    name: "Eric Segovia",
+    name: "Éric Segovia",
     role: "Design Member",
     imgSrc: "images/team/ÉricSegovia.png",
     category: "design",
     description: `In this project I worked as a game designer, first working on the design of the Main Characther Raisen, which includes her physical description with moodboards and references and her personality with description on her way of moving and interacting with others. I also designed her mechanichs like her 3 skills and the stats of all her weapons using spreadsheets.<br><br>
     Later on the project I helped the code deparment implementing a Particle System and implementing some of the particles of the weapons.`,
-    tasks: `Gameplay Design.<br>
+    tasks: `Gameplay Design<br>
     Stats balancing<br>
     Particles Programmer`,
     media: [
@@ -733,7 +734,7 @@ const teamMembers = [
     NaveMesh and Pathfinding integration<br>
     Implementation of enemies and boss<br>
     Spawn enemies <br>
-    Enemies and Boss HelthBar<br>
+    Enemies and Boss HealthBar<br>
     Bug fixing`,
     media: [
       { type: 'image', src: "images/projects/Code/Xiao Costajussà/Inspector Scripts.png", description: "Inspector Scripts" },
