@@ -755,14 +755,23 @@ const teamMembers = [
     role: "Code Member",
     imgSrc: "images/team/Nixon_Correa.jpg",
     category: "code",
-    description: `During this project, I started with the implementation of Raycast, an essential tool for collision detection. Then, I performed QA of the engine and the scripting module, followed by the development of an electric trap and chest animation. I also worked on the particle effects of the electric trap and fixed some bugs. Finally, I performed QA of the base level.<br><br>
-    This project has taught me the importance of teamwork and effective communication. It has been a difficult job, but very valuable for my professional development.`,
-    tasks: `Electric traps and their particles<br>
+    description: `During this project, I started with the implementation of Raycast, an essential tool for collision detection. Then, I performed QA of the engine and the scripting module, I developed several prototypes, including scene switching, UI opening, and alien trap, followed by the development of an electric trap and chest animation. I also worked on the particle effects of the electric trap and fixed some bugs. I performed base level QA to ensure a smooth gameplay experience. Finally, I developed the audio for the electric traps, enhancing player immersion.<br><br>
+    This project has taught me the importance of teamwork and effective communication. It has been a difficult job, but very valuable for my professional developmen`,
+    tasks: `Electric traps (script, particle & audio)
+    Prototypes<br>
     Base level QA & polish<br>
     Chest animation<br>
     Raycast implementation<br>
     Bug fixing & QA`,
-    media: [],
+    media: [
+      { type: 'gif', src: "images/projects/Code/Nixon Correa/CableTrap.gif", description: "Cable Trap" },
+      { type: 'gif', src: "images/projects/Code/Nixon Correa/ChestAnimation.gif", description: "Chest Animation" },
+      { type: 'gif', src: "images/projects/Code/Nixon Correa/ElectricTrap.gif", description: "Electric Trap" },
+      { type: 'gif', src: "images/projects/Code/Nixon Correa/Prot_AlienTrap.gif", description: "Prototype Alien Trap" },
+      { type: 'gif', src: "images/projects/Code/Nixon Correa/Prot_ChangeScene.gif", description: "Prototype Change Scene" },
+      { type: 'gif', src: "images/projects/Code/Nixon Correa/Prot_OpenUI.gif", description: "Prototype Open UI" },
+
+    ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/nixon-correa-818388244/",
