@@ -1039,7 +1039,13 @@ const teamMembers = [
     Lvl 1 assets and scripts implementation<br>
     Lvl 1 & Physics QA and polish<br>
     Bug fixing`,
-    media: [],
+    media: [
+      { type: 'mp4', src: "images/projects/Code/Marc Escandell/Video.mp4", description: "" },
+      { type: 'image', src: "images/projects/Code/Marc Escandell/CCollider.jpg", description: "" },
+      { type: 'image', src: "images/projects/Code/Marc Escandell/Lvl1.jpg", description: "" },
+      { type: 'image', src: "images/projects/Code/Marc Escandell/Physics.jpg", description: "" },
+
+    ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/marc-escandell-alonso-4196202a7/",
