@@ -726,13 +726,23 @@ const teamMembers = [
     role: "Code Member",
     imgSrc: "images/team/Xiao Shan Costajussa.jpg",
     category: "code",
-    description: ``,
-    tasks: ``,
-    media: [],
+    description: `As a member of the code department, my role at first was to implement, together with two colleagues, a scripting system in C# with Mono, to our own engine, and I had to constantly add functionalities according to the needs of the project and other colleagues.<br><br>
+    Once we had a functional scripting system, I started to help implement the enemies, and for this, together with another colleague, we were implementing the NavMesh and pathfinding system, and then implementing them with the movements and behaviors of the enemies. I also integrated the enemy spawn functionality and during my last stages of the project I was helping with improving and testing the implementation of all the enemies and boss.<br><br>
+    The most important thing that I took away from the project is having learned the importance of teamwork, since at all times my work has affected that of others as theirs has affected mine, so having good empathy and communication has been the most important thing to try to carry out this project in the best possible way.`,
+    tasks: `Scripting implementation with Mono <br>
+    NaveMesh and Pathfinding integration<br>
+    Implementation of enemies and boss<br>
+    Spawn enemies <br>
+    Enemies and Boss HelthBar<br>
+    Bug fixing`,
+    media: [
+      { type: 'image', src: "images/projects/Code/Xiao Costajussà/Inspector Scripts.png", description: "Inspector Scripts" },
+      { type: 'mp4', src: "images/projects/Code/Xiao Costajussà/NavMesh y PathFinding.mp4", description: "NavMesh y PathFinding" },
+    ],
     social: {
       twitter: "",
-      linkedin: "",
-      github: "",
+      linkedin: "https://www.linkedin.com/in/xiao-shan-costajussa-bellver/",
+      github: "https://github.com/xaitta",
       portfolio: "",
       artstation: "",
       itchio: ""
@@ -794,8 +804,8 @@ const teamMembers = [
     role: "Code Member",
     imgSrc: "images/team/Mario García.jpg",
     category: "code",
-    description: `During this project I have been in charge of the role of programmer.
-    At the beginning I did the implementation of the Audio module in the game engine.
+    description: `During this project I have been in charge of the role of programmer.<br><br>
+    At the beginning I did the implementation of the Audio module in the game engine.<br><br>
     Later, I became gameplay programmer, creating all the player scripts and a first iteration of the weapon upgrade and firing systems. And finally, I made all the player's animations, skills and interactions, apart from fixing bugs and doing QA.`,
     tasks: `Audio module implementation<br>
     Player structure programming<br>
@@ -910,7 +920,10 @@ const teamMembers = [
     Enemies item drop<br>
     Fix memory issues<br>
     Bug fixing`,
-    media: [],
+    media: [
+      { type: 'mp4', src: "images/projects/Code/Nacho Moreno/DropItem.mp4", description: "Drop Item" },
+      { type: 'mp4', src: "images/projects/Code/Nacho Moreno/NavMesh y PathFinding.mp4", description: "NavMesh y PathFinding" },
+    ],
     social: {
       twitter: "",
       linkedin: "https://www.linkedin.com/in/nacho-moreno-navarro-b009b4310/",
